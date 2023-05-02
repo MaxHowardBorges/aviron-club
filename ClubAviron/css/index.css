@@ -1,0 +1,147 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+#bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/assets/img/Lac St Cassien lac été.jpg");
+    background-size: cover;
+    text-align: center;
+    height: 800px;
+    width: 100%;
+
+}
+
+#bg > nav {
+    max-width: 100%;
+}
+
+#bb{
+    display: flex;
+    justify-content: center;
+
+}
+
+#bg > button{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#image{
+    //background-color: white;
+}
+
+#b1 {
+    font-size: 30px;
+    background-color: darkslateblue;
+}
+
+#b2 {
+    font-size: 30px;
+    background-color: green;
+}
+
+button {
+    background-color: #506cbf;
+    border: none;
+    color: white;
+    height: 300px;
+    width: 390px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: transform 500ms ease-in-out-back,
+    background-position 800ms ease-in-out-back, box-shadow 500ms linear;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+nav {
+    background-color:#333;
+    overflow:hidden;
+    scroll-behavior:smooth;
+    margin-bottom: 100px;
+
+}
+
+.container {
+    height:calc(3em + 4px);
+
+}
+
+section {
+    padding:calc(1em + 2px);
+    width:100vw;
+}
+
+a {
+    border:solid 1px transparent;
+    padding:1em;
+    font-family: "Lucida Bright";
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+button:active {
+    transform: scale(1);
+    background-position: 500px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#foot > div {
+    padding: 15px 15px;
+}
+
+img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+#f1 > img {
+    padding: 17px 35px;
+}
+
+#f2 > img {
+    max-height: 180px;
+    max-height: 180px;
+    padding: 17px 35px;
+}
+
+#f4 > img {
+    max-height: 1000px;
+    max-width: 1000px;
+    padding: 17px 35px;
+}
+
+#video1 {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+}
+
+#video1 > video{
+    padding: 10px;
+    max-width: 32.2%;
+    display: inline-block;
+}
+
