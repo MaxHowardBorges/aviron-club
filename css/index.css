@@ -1,0 +1,154 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin-top: -136px;
+}
+
+#background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/assets/img/aviron_lac_st_cassien_ete.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 800px;
+    width: 100%;
+    box-shadow: 0px 1px 10px grey;
+}
+
+#bb{
+    justify-content: center;
+    margin: auto;
+}
+
+#background > button{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#b1 {
+    font-size: 30px;
+    background-color: rgb(61, 69, 139);
+    height: 300px;
+    width: 390px;
+    margin: 5px;
+}
+
+#b2 {
+    font-size: 30px;
+    background-color: green;
+    height: 300px;
+    width: 390px;
+    margin: 5px;
+}
+
+button {
+    background-color: rgb(61, 69, 139);
+    border: none;
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: transform 500ms ease-in-out-back,
+    background-position 800ms ease-in-out-back, box-shadow 500ms linear;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+button:hover {
+    transform: scale(1.02);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+button:active {
+    transform: scale(1);
+    background-position: 500px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #d2cdd6a1;
+}
+
+#foot > div {
+    padding: 15px 15px;
+}
+
+#f1 > img {
+    padding: 17px 35px;
+}
+
+#f2 > img {
+    max-height: 180px;
+    max-height: 180px;
+    padding: 17px 35px;
+}
+
+#f4 > img {
+    max-height: 1000px;
+    max-width: 1000px;
+    padding: 17px 35px;
+}
+
+#video1 {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#video1 > video{
+    padding: 12px;
+    max-width: 32%;
+    display: inline-block;
+}
+
+#map{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#map1{
+    width: 600px;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+#map2{
+    width: 1240px;
+}
+
+#button_savoir_plus{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#b3{
+    display: inline-block;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: xxx-large;
+}
