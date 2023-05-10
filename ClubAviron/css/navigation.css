@@ -1,0 +1,108 @@
+nav {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#363738b3;
+    top: 0;
+    z-index: 1000;
+    margin: 0px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    font-family: sans-serif;
+    font-size: x-large;
+    margin-right: 1px;
+}
+
+.sous-menu {
+    list-style-type: none;
+    display: none;
+    text-align: center;
+    background-color:#363738b3;
+    padding: 1rem;
+    width: auto;
+    padding: 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.menu a {
+    text-decoration-line: none;
+    display: grid;
+    color: black;
+    align-content: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+ul {
+    margin-block-start: 0em;
+    margin-block-end: -1em;
+}
+
+/* Animation passage souris */
+
+.menu a {
+    position: relative;
+    overflow: hidden;
+    will-change: color;
+    transition: color .25s ease-out;
+}
+
+.menu a::before,
+.menu a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: var(--textUnderlinedLineColor, currentColor);
+    position: absolute;
+    bottom: 0;
+}
+
+.menu a::before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu a::after {
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.menu a:hover::before,
+.menu a:hover::after {
+    width: 100%;
+    transition-duration: .2s;
+}
+
+.menu a {
+    padding: 30px;
+}
+
+.menu li {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.menu ul {
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+}
+
+
+nav>ul>li:hover .sous-menu {
+    display: block;
+}
+.logo {
+    width: 7rem;
+    margin-left: 13px
+}
+
+#div_logo{
+    cursor: pointer;
+}
