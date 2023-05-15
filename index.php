@@ -5,7 +5,7 @@
         <meta name="viewport"
             content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Base d'Aviron de Saint Cassien</title>
+        <title>Aviron Accueil</title>
         <link rel="stylesheet" href="css/index.css" />
     </head>
     <?php require_once 'navigation.html'; ?>
@@ -14,32 +14,36 @@
     <div id="background">
         
 
-        <div id="bb"><button id="b1">Saint Cassien International Rowing Center</button>
+        <div id="bb"><button id="b1" onclick="window.location.href = 'baseaviron.php';">Saint Cassien International Rowing Center</button>
         <button id="b2">Le Club d'Aviron <br>Saint Cassien</button></div>
 
     </div>
-    <h1>Présentation vidéo</h1>
-    <div id="video1">
-        <video controls poster="assets/img/aviron_miniature1.png">
-            <source src="assets/video/video_1_bassin.webm" type="video/webm">
-            Le fichier vidéo ne peut pas être lu
-        </video>
-        <video controls poster="assets/img/aviron_miniature2.png">
-            <source src="assets/video/video_3_temoignage.webm" type="video/webm">
-            Le fichier vidéo ne peut pas être lu
-        </video>
-        <video controls poster="assets/img/aviron_miniature3.png">
-            <source src="assets/video/video_2_equipment.webm" type="video/webm">
-            Le fichier vidéo ne peut pas être lu
-        </video>
+    <div id="video">
+        <h1>Présentation vidéo</h1>
+        <div id="video-liste">
+            <video controls poster="assets/img/aviron_miniature1.png">
+                <source src="assets/video/video_1_bassin.webm" type="video/webm">
+                Le fichier vidéo ne peut pas être lu
+            </video>
+            <video controls poster="assets/img/aviron_miniature2.png">
+                <source src="assets/video/video_3_temoignage.webm" type="video/webm">
+                Le fichier vidéo ne peut pas être lu
+            </video>
+            <video controls poster="assets/img/aviron_miniature3.png">
+                <source src="assets/video/video_2_equipment.webm" type="video/webm">
+                Le fichier vidéo ne peut pas être lu
+            </video>
+        </div>
     </div>
-    <h1>Accés</h1>
-    <div id="map">
-        <img id="map1" src="assets/img/map.png" />
-        <img id="map2" src="assets/img/map2.png" />
-    </div>
-    <div id="button_savoir_plus">
-        <button id="b3">En savoir plus</button>
+    <div id="acces">
+        <h1>Accés</h1>
+        <div id="map">
+            <img id="map1" src="assets/img/map.png" />
+            <img id="map2" src="assets/img/map2.png" />
+        </div>
+        <div id="button_savoir_plus">
+            <button id="b3">En savoir plus</button>
+        </div>
     </div>
     </body>
     <footer id="foot">

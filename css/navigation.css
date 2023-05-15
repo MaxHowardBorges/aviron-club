@@ -3,7 +3,7 @@ nav {
     position: sticky;
     justify-content: space-between;
     align-items: center;
-    background-color:#363738b3;
+    background-color:#363738bf;
     top: 0;
     z-index: 1000;
     margin: 0px;
@@ -21,7 +21,7 @@ nav {
     list-style-type: none;
     display: none;
     text-align: center;
-    background-color:#363738b3;
+    background-color:#363738bf;
     padding: 1rem;
     width: auto;
     padding: 0px;

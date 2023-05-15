@@ -1,0 +1,156 @@
+@font-face {
+    font-family: montserrat-medium;
+    src: url(../assets/font/montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: montserrat-light-italic;
+    src: url(../assets/font/montserrat/Montserrat-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: montserrat-semibold;
+    src: url(../assets/font/montserrat/Montserrat-SemiBold.ttf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: montserrat-medium;
+}
+
+body {
+    margin-top: -136px;
+    background-color: #E2ECE9;
+}
+
+#background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/assets/img/aviron_lac_st_cassien_ete.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    box-shadow: 0px 1px 10px #808080;
+    z-index: 5;
+}
+
+.titre-page {
+    background-color: #3d458b;
+    color: #ffffff;
+    box-shadow: 0px 1px 10px #808080;
+    max-width: 400px;
+    min-height: 90px;
+    text-align: center;
+    margin: auto;
+    z-index: 10;
+    margin-top: -70px;
+    border-radius: 8px;
+}
+
+.titre-page h1 {
+    padding: 30px;
+    font-size: 40px;
+}
+
+.bloc_impair, .bloc_pair {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 3%;
+}
+
+.bloc_impair {
+    background-color: #E2ECE9;
+}
+
+.bloc_pair {
+    background-color: #CFECE2;
+}
+
+h2 {
+    color: #007300;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: montserrat-light-italic;
+    color: #3064A7;
+    font-size: 20px;
+}
+
+p {
+    font-family: montserrat-semibold;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img {
+    box-shadow: 0px 1px 10px #484848;
+}
+
+.image, .texte {
+    flex-basis: 40%;
+}
+
+.bloc_impair .texte {
+    padding-left: 5%;
+}
+
+
+
+/* Defilement photo ?
+:root {
+    --max-img-width: 600px;
+    --max-img-height: 400px;
+}
+  
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+  
+.galerie {
+    display: flex;
+    margin: 10px auto;
+    max-width: var(--max-img-width);
+    position: relative;
+    padding-top: calc(var(--max-img-height) / var(--max-img-width) * 100%);
+}
+  
+.image_galerie {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+  
+.thumb_galerie {
+    padding-top: 6px;
+    margin: 6px;
+    display: block;
+}
+  
+.selection_galerie {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+    
+.selection_galerie:checked + .image_galerie {
+    opacity: 1;
+}
+    
+.selection_galerie:checked ~ .thumb_galerie > img {
+    box-shadow: 0 0 0 3px #0be2f6;
+}
+*/
