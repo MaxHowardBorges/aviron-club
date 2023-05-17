@@ -22,7 +22,7 @@ html, body {
 
 body {
     margin-top: -136px;
-    background-color: #E2ECE9;
+    background-color: #609b9633;
 }
 
 #background {
@@ -58,6 +58,15 @@ body {
     font-size: 40px;
 }
 
+.intro {
+    align-items: center;
+    padding: 0 15% 2% 15%;
+}
+
+#petite-etoile {
+    font-size: 12px;
+}
+
 .bloc_impair, .bloc_pair {
     display: flex;
     align-items: center;
@@ -67,11 +76,11 @@ body {
 }
 
 .bloc_impair {
-    background-color: #E2ECE9;
+    background-color: #609b9633;
 }
 
 .bloc_pair {
-    background-color: #CFECE2;
+    background-color: #609b9680;
 }
 
 h2 {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport"
@@ -13,7 +13,17 @@
 
         <div id="background"></div>
 
-        <div class="titre-page"><h1>Base d'Aviron</h1></div>
+        <div class="titre-page"><h1>Base d'Aviron Saint Cassien</h1></div>
+        <div class="intro">
+            <p>Reconstruite en 2021*, la base d'aviron de St Cassien offre des installations sportives modernes dans un site magnifique ; elle accueille plus de 2000 rameurs chaque année :</p>
+            <ul>
+                <li>Le Club local Aviron Saint Cassien avec près de 1000 pratiquants du Pays de Fayence.</li>
+                <li>Les clubs et la ligue de la Région qui entrainent en permanence leurs équipes de compétition.</li>
+                <li>Les équipes de compétitions de France et d'Europe en Stage de haut niveau (Rowing Camp).</li>
+            </ul>
+            <p><br>Par ailleurs, les équipements disponibles et une vue exceptionnelle sur le lac font de la base d'Aviron un lieu idéal pour accueillir des groupes, séminaires dentreprise, etc.</p>
+            <p id="petite-etoile">* Financement apporté par la Communauté de Communes du Pays de Fayence, par la Région Provence Alpes Côte d'Azur, par l'Agence Nationale du Sport sur un projet soutenu par la Fédération Française d'Aviron.</p>
+        </div>
         <div class="bloc_impair">
             <div class="texte">
                 <h2>Base d'Aviron St Cassien</h2>
@@ -60,7 +70,7 @@
                 <img class="img" src="assets/img/aviron_lac_st_cassien_automne.jpg" alt="Vue du lac saint cassien en automne"/>
             </div>
             <div class="texte">
-                <h2>Lac St Cassien</h2>
+                <h2>Un site unique dans un environnement naturel</h2>
                 <h3>Avec une vue magnifique sur le lac, la Base d'Aviron de St Cassien est un lieu ideal pour les reunions privées, les séminaires, etc…</h3>
                 <p>• Grande salle de reunion toute équipée, divisible en deux</p>
                 <p>• Grande terrasse avec vue sur le lac</p>
