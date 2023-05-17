@@ -13,7 +13,10 @@
 
         <div id="background"></div>
 
-        <div class="titre-page"><h1>Base d'Aviron Saint Cassien</h1></div>
+        <div class="langue-titre">
+            <div class="langue"><a href="rowingcenter.php" title="English page"><img id="langue" src="assets/img/flag_english.jpg" alt="langue anglais" width="90" height="60"></a></div>
+            <div class="titre-page"><h1>Base d'Aviron Saint Cassien</h1></div>
+        </div>
         <div class="intro">
             <p>Reconstruite en 2021*, la base d'aviron de St Cassien offre des installations sportives modernes dans un site magnifique ; elle accueille plus de 2000 rameurs chaque année :</p>
             <ul>
