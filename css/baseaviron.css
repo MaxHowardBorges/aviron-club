@@ -40,17 +40,11 @@ body {
     z-index: 5;
 }
 
-
-.langue-titre {
-    position: relative;
-    display: block;
-    z-index: 10;
-    text-align: center;
-}
-
 .langue {
     position: absolute;
-    bottom: 0;
+    right: 0;
+    margin-right: 3%;
+    margin-top: 150px;
 }
 
 #langue {
@@ -76,8 +70,7 @@ body {
     margin: auto;
     margin-top: -70px;
     border-radius: 8px;
-    position: static;
-    display: inline-block;
+    display: block;
 }
 
 .titre-page h1 {

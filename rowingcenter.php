@@ -11,12 +11,10 @@
     <?php require_once 'navigation.html'; ?>
     <body>
 
+    <div class="langue"><a href="baseaviron.php" title="Page française"><img id="langue" src="assets/img/flag_french.jpg" alt="langue anglais" width="90" height="60"></a></div>
         <div id="background"></div>
 
-        <div class="langue-titre">
-            <div class="langue"><a href="baseaviron.php" title="Page française"><img id="langue" src="assets/img/flag_french.jpg" alt="langue anglais" width="90" height="60"></a></div>
-            <div class="titre-page"><h1>St Cassien Rowing Center</h1></div>
-        </div>
+        <div class="titre-page"><h1>St Cassien Rowing Center</h1></div>
         <div class="intro">
             <p>Rebuilt in 2021*, the St Cassien rowing center offers modern sports facilities in a beautiful site ; it welcomes more than 2000 rowers each year :</p>
             <ul>
