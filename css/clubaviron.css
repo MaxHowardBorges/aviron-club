@@ -1,0 +1,59 @@
+@font-face {
+    font-family: montserrat-medium;
+    src: url(../assets/font/montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: montserrat-light-italic;
+    src: url(../assets/font/montserrat/Montserrat-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: montserrat-semibold;
+    src: url(../assets/font/montserrat/Montserrat-SemiBold.ttf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: montserrat-medium;
+}
+
+body {
+    margin-top: -136px;
+    background-color: #609b9633;
+}
+
+#background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/assets/img/aviron_lac_st_cassien_ete.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    box-shadow: 0px 1px 10px #808080;
+    z-index: 5;
+}
+
+.titre-page {
+    background-color: #008000;
+    color: #ffffff;
+    box-shadow: 0px 1px 10px #808080;
+    max-width: 400px;
+    min-height: 90px;
+    text-align: center;
+    margin: auto;
+    margin-top: -70px;
+    border-radius: 8px;
+    display: block;
+}
+
+.titre-page h1 {
+    padding: 30px;
+    font-size: 40px;
+}

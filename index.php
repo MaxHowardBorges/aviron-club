@@ -15,7 +15,7 @@
         
 
         <div id="bb"><button id="b1" onclick="window.location.href = 'baseaviron.php';">Saint Cassien International Rowing Center</button>
-        <button id="b2">Le Club d'Aviron <br>Saint Cassien</button></div>
+        <button id="b2" onclick="window.location.href = 'clubaviron.php';">Le Club d'Aviron <br>Saint Cassien</button></div>
 
     </div>
     <div id="video">
