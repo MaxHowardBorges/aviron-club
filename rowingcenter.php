@@ -7,11 +7,14 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Rowing Center</title>
         <link rel="stylesheet" href="css/baseaviron.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     </head>
     <?php require_once 'navigation.html'; ?>
     <body>
-
-    <div class="langue"><a href="baseaviron.php" title="Page française"><img id="langue" src="assets/img/flag_french.jpg" alt="langue anglais" width="90" height="60"></a></div>
+    <div class="meteo-langue">
+        <div class="meteo"><a href="https://www.windy.com/43.618/6.765/meteogram?43.304,6.765,9,m:eRQagmr" title="Weather" target="_blank"><i class="fa-solid fa-cloud-sun fa-4x" width="90" height="60"></i></a></div>
+        <div class="langue"><a href="baseaviron.php" title="Page française"><img id="langue" src="assets/img/flag_french.jpg" alt="langue anglais" width="90" height="60"></a></div>
+    </div>
         <div id="background"></div>
 
         <div class="titre-page"><h1>St Cassien Rowing Center</h1></div>
