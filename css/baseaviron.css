@@ -40,11 +40,15 @@ body {
     z-index: 5;
 }
 
-.langue {
+.meteo-langue {
     position: absolute;
     right: 0;
     margin-right: 3%;
     margin-top: 150px;
+}
+
+.fa-cloud-sun {
+    color: #ffffff;
 }
 
 #langue {
