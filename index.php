@@ -7,12 +7,13 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Aviron Accueil</title>
         <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     </head>
     <?php require_once 'navigation.html'; ?>
-    <body> 
+    <body>
+    <div class="meteo"><a href="https://www.windy.com/43.618/6.765/meteogram?43.304,6.765,9,m:eRQagmr" title="Météo" target="_blank"><i class="fa-solid fa-cloud-sun fa-4x" width="90" height="60"></i></a></div>
 
-    <div id="background">
-        
+    <div id="background">      
 
         <div id="bb"><button id="b1" onclick="window.location.href = 'baseaviron.php';">Saint Cassien International Rowing Center</button>
         <button id="b2" onclick="window.location.href = 'clubaviron.php';">Le Club d'Aviron <br>Saint Cassien</button></div>

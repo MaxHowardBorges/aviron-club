@@ -1,28 +1,28 @@
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex + n);
+function plusSlides(n, element) {
+  const slideContainer = element.parentNode.parentNode;
+  const slideIndex = parseInt(slideContainer.getAttribute("data-slide-index")) || 1;
+  showSlides(slideIndex + n, slideContainer);
 }
 
-function currentSlide(n) {
-  showSlides(n);
+function currentSlide(n, element) {
+  const slideContainer = element.parentNode.parentNode.parentNode;
+  const slides = slideContainer.getElementsByClassName("mySlides");
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  slides[n - 1].style.display = "block";
 }
 
-var div = event.target.parentNode;
-var divClass = div.className;
-console.log(divClass);
-
-function showSlides(n) {
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("demo");
+function showSlides(n, slideContainer) {
+  const slides = slideContainer.getElementsByClassName("mySlides");
+  const dots = slideContainer.getElementsByClassName("demo");
 
   if (n > slides.length) {
-    slideIndex = 1;
+    n = 1;
   } else if (n < 1) {
-    slideIndex = slides.length;
-  } else {
-    slideIndex = n;
+    n = slides.length;
   }
 
   for (let i = 0; i < slides.length; i++) {
@@ -33,8 +33,10 @@ function showSlides(n) {
     dots[i].classList.remove("active");
   }
 
-  if (slides[slideIndex - 1] && dots[slideIndex - 1]) {
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].classList.add("active");
+  if (slides[n - 1] && dots[n - 1]) {
+    slides[n - 1].style.display = "block";
+    dots[n - 1].classList.add("active");
   }
+
+  slideContainer.setAttribute("data-slide-index", n);
 }
