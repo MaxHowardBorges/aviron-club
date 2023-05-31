@@ -15,7 +15,7 @@
         <div id="background"></div>
 
         <div class="titre-page"><h1>Club Aviron</h1></div>
-        <div class="intro">
+        <div class="neutre">
             
         </div>
         <div class="bloc_impair">
