@@ -42,7 +42,7 @@
             <img id="map2" src="assets/img/map2.png" />
         </div>
         <div id="button_savoir_plus">
-            <button id="b3">En savoir plus</button>
+            <button id="b3" onclick="window.location.href = 'informations.php';">En savoir plus</button>
         </div>
     </div>
     </body>

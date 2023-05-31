@@ -82,7 +82,7 @@ body {
     font-size: 40px;
 }
 
-.intro {
+.neutre {
     align-items: center;
     padding: 0 15% 2% 15%;
 }
@@ -138,52 +138,6 @@ img {
     padding-left: 5%;
 }
 
-
-
-/* Defilement photo ?
-:root {
-    --max-img-width: 600px;
-    --max-img-height: 400px;
+.qui-somme-nous h2{
+    text-align: center;
 }
-  
-img {
-    max-width: 100%;
-    vertical-align: top;
-}
-  
-.galerie {
-    display: flex;
-    margin: 10px auto;
-    max-width: var(--max-img-width);
-    position: relative;
-    padding-top: calc(var(--max-img-height) / var(--max-img-width) * 100%);
-}
-  
-.image_galerie {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-  
-.thumb_galerie {
-    padding-top: 6px;
-    margin: 6px;
-    display: block;
-}
-  
-.selection_galerie {
-    position: absolute;
-    opacity: 0;
-    visibility: hidden;
-}
-    
-.selection_galerie:checked + .image_galerie {
-    opacity: 1;
-}
-    
-.selection_galerie:checked ~ .thumb_galerie > img {
-    box-shadow: 0 0 0 3px #0be2f6;
-}
-*/

@@ -1,0 +1,119 @@
+@font-face {
+    font-family: montserrat-medium;
+    src: url(../assets/font/montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: montserrat-light-italic;
+    src: url(../assets/font/montserrat/Montserrat-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: montserrat-semibold;
+    src: url(../assets/font/montserrat/Montserrat-SemiBold.ttf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: montserrat-medium;
+}
+
+body {
+    margin-top: -136px;
+    background-color: #609b9633;
+}
+
+#background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/assets/img/aviron_lac_st_cassien_ete.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    box-shadow: 0px 1px 10px #808080;
+    z-index: 5;
+}
+
+.titre-page {
+    background-color: #3d458b;
+    color: #ffffff;
+    box-shadow: 0px 1px 10px #808080;
+    max-width: 400px;
+    min-height: 90px;
+    text-align: center;
+    margin: auto;
+    margin-top: -70px;
+    border-radius: 8px;
+    display: block;
+}
+
+.texte {
+    width: 950px;
+    margin: auto;
+}
+
+p {
+    font-family: montserrat-semibold;
+}
+
+.titre-page h1 {
+    padding: 30px;
+    font-size: 40px;
+}
+
+h2 {
+    color: #007300;
+    font-size: 30px;
+    text-align: center;
+}
+
+#map3 {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+button {
+    background-color: #3d458b;
+    border: none;
+    color: #ffffff;
+    text-decoration: none;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: transform 500ms ease-in-out-back,
+    background-position 800ms ease-in-out-back, box-shadow 500ms linear;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+button:hover {
+    transform: scale(1.02);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+button:active {
+    transform: scale(1);
+    background-position: 500px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.texte2 {
+    text-align: center;
+}
+
+.b3 {
+    display: block;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
