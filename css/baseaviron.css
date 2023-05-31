@@ -155,3 +155,7 @@ img {
 .qui-somme-nous h2{
     text-align: center;
 }
+
+.qui-somme-nous .container {
+    margin: auto;
+}
