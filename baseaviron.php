@@ -8,6 +8,8 @@
         <title>Base d'aviron</title>
         <link rel="stylesheet" href="css/baseaviron.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="css/diaporama_gallery.css" />
+        <script src="js/diaporama_gallery.js"></script>
     </head>
     <?php require_once 'navigation.html'; ?>
     <body>
@@ -19,7 +21,7 @@
         <div id="background"></div>
 
         <div class="titre-page"><h1>Base d'Aviron Saint Cassien</h1></div>
-        <div class="intro">
+        <div class="neutre">
             <p>Reconstruite en 2021*, la base d'aviron de St Cassien offre des installations sportives modernes dans un site magnifique ; elle accueille plus de 2000 rameurs chaque année :</p>
             <ul>
                 <li>Le Club local Aviron Saint Cassien avec près de 1000 pratiquants du Pays de Fayence.</li>
@@ -40,13 +42,56 @@
                 <p>• Garage pour les bateaux visiteurs</p>
                 <p>• Bateaux à louer (coaching et rame)</p>
             </div>
-            <div class="image">
-                <img class="img" src="assets/img/base_vu_hauteur.jpg" alt="Base vue en hauteur"/>
+            <div class="container">
+                <div class="mySlides" style="display: block;">
+                    <img class="pres-img" src="assets/img/base_vu_hauteur.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <img class="pres-img" src="assets/img/baseaviron_saintcassien.JPG" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <img class="pres-img" src="assets/img/base_salle_entrainement.jpg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1, this)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, this)">&#10095;</a>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor active" src="assets/img/base_vu_hauteur.jpg" style="width:100%" onclick="currentSlide(1, this)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/img/baseaviron_saintcassien.JPG" style="width:100%" onclick="currentSlide(2, this)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/img/base_salle_entrainement.jpg" style="width:100%" onclick="currentSlide(3, this)">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="bloc_pair">
-            <div class="image">
-                <img class="img" src="assets/img/lac_st_cassien_aviron.jpg" alt="Vue du lac saint cassien"/>
+            <div class="container">
+                <div class="mySlides" style="display: block;">
+                    <img class="pres-img" src="assets/img/lac_st_cassien_aviron.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <img class="pres-img" src="assets/img/plan_bassin.png" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1, this)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, this)">&#10095;</a>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor active" src="assets/img/lac_st_cassien_aviron.jpg" style="width:100%" onclick="currentSlide(1, this)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/img/plan_bassin.png" style="width:100%" onclick="currentSlide(2,  this)">
+                    </div>
+                </div>
             </div>
             <div class="texte">
                 <h2>Lac St Cassien</h2>
@@ -66,13 +111,56 @@
                 <p>• Logements tout confort à proximité (appart-hotel, camping…) avec tarrifs avantageux pour les groups d'aviron</p>
                 <p>• Garage à bateaux pour les visiteurs en stage</p>
             </div>
-            <div class="image">
-                <img class="img" src="assets/img/competition_top_2019.jpg" alt="Athletes en entrainement pour la compétion"/>
+            <div class="container">
+                <div class="mySlides" style="display: block;">
+                    <img class="pres-img" src="assets/img/competition_top_2019.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <img class="pres-img" src="assets/img/competition_chmonde_U19.jpg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1, this)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, this)">&#10095;</a>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor active" src="assets/img/competition_top_2019.jpg" style="width:100%" onclick="currentSlide(1, this)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/img/competition_chmonde_U19.jpg" style="width:100%" onclick="currentSlide(2,  this)">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="bloc_pair">
-            <div class="image">
-                <img class="img" src="assets/img/aviron_lac_st_cassien_automne.jpg" alt="Vue du lac saint cassien en automne"/>
+            <div class="container">
+                <div class="mySlides" style="display: block;">
+                    <img class="pres-img" src="assets/img/aviron_lac_st_cassien_automne.JPG" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <img class="pres-img" src="assets/img/st_cassien_seminaire.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <img class="pres-img" src="assets/img/loisir_fete_club_2004.JPG" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1, this)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, this)">&#10095;</a>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor active" src="assets/img/aviron_lac_st_cassien_automne.JPG" style="width:100%" onclick="currentSlide(1, this)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/img/st_cassien_seminaire.jpg" style="width:100%" onclick="currentSlide(2,  this)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/img/loisir_fete_club_2004.JPG" style="width:100%" onclick="currentSlide(3, this)">
+                    </div>
+                </div>
             </div>
             <div class="texte">
                 <h2>Un site unique dans un environnement naturel</h2>
@@ -83,6 +171,16 @@
                 <p>• Initiation à l'aviron et autres activités au tour du lac</p>
                 <p>• Logements de qualité à moins de 5 km (appart-hotel, bungalow, ...)</p>
             </div>
+        </div>
+        <div class="neutre qui-somme-nous">
+            <p>Rebuilt in 2021*, the St Cassien rowing center offers modern sports facilities in a beautiful site ; it welcomes more than 2000 rowers each year :</p>
+            <ul>
+                <li>The local Saint Cassien Rowing Club with nearly 1000 practitioners from the Pays de Fayence.</li>
+                <li>The clubs and league of the Provence Region that train their competition teams every week.</li>
+                <li>The competition teams of France and Europe for intensive training courses (Rowing Camps).</li>
+            </ul>
+            <p><br>In addition, modern indoor accommodations and an exceptional view of the lake make the Rowing Base a unique place to host groups, business seminars, etc.</p>
+            <p id="petite-etoile">* Funding provided by the Pays de Fayence Communes Community, the Provence Alpes Cote d'Azur Region and the National Sports Agency on a project supported by the National French Rowing Federation. </p>
         </div>
     </body>
 </html>
