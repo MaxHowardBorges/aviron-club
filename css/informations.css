@@ -53,9 +53,14 @@ body {
     display: block;
 }
 
+.intro {
+    display: block;
+    margin:auto;
+}
+
 .texte {
-    width: 950px;
-    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 p {

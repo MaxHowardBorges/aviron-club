@@ -21,10 +21,12 @@
         <h2>Transport</h2>
         <img id="map3" src="assets/img/map3.png" />
         <div class="texte">
-            <p>By plane: Nice airport/ Car rental/ Highway A8 -> Marseille/ exit 39 (40km)</p>
-            <p>By train: Cannes station/ Car rental/Highway A8 -> Marseille/ exit 39 (20km)</p>
-            <p>By car: Highway A8 to “les Adrets” exit 39 ->Montauroux</p>
-            <p>From the highway exit 39, the rowing center is 500m on the left after crossing the large bridge over the lake</p>
+            <p>
+            By plane: Nice airport/ Car rental/ Highway A8 -> Marseille/ exit 39 (40km)<br>
+            By train: Cannes station/ Car rental/Highway A8 -> Marseille/ exit 39 (20km)<br>
+            By car: Highway A8 to “les Adrets” exit 39 ->Montauroux<br>
+            From the highway exit 39, the rowing center is 500m on the left after crossing the large bridge over the lake<br>
+            </p>
         </div>
     </div>
     <div class="intro">
