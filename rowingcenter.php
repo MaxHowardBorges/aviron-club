@@ -174,15 +174,10 @@
         </div>
     </div>
     <div class="neutre qui-somme-nous">
-        <h2>Qui somme-nous</h2>
+        <h2>Who are we</h2>
         <div class="container">
             <div class="mySlides" style="display: block;">
                 <img class="pres-img" src="assets/img/aviron_lac_st_cassien_automne.JPG" style="width:100%">
-                <div id="myModal" class="modal">
-                    <span class="close">&times;</span>
-                    <img class="modal-content" id="img01">
-                    <div id="caption"></div>
-                </div>
             </div>
 
             <div class="mySlides">

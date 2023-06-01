@@ -13,7 +13,6 @@
     </head>
     <?php require_once 'navigation.html'; ?>
     <body>
-
     <div class="meteo-langue">
         <div class="meteo"><a href="https://www.windy.com/43.618/6.765/meteogram?43.304,6.765,9,m:eRQagmr" title="Météo" target="_blank"><i class="fa-solid fa-cloud-sun fa-4x" width="90" height="60"></i></a></div>
         <div class="langue"><a href="rowingcenter.php" title="English page"><img id="langue" src="assets/img/flag_english.jpg" alt="langue anglais" width="90" height="60"></a></div>
@@ -173,14 +172,35 @@
             </div>
         </div>
         <div class="neutre qui-somme-nous">
-            <p>Rebuilt in 2021*, the St Cassien rowing center offers modern sports facilities in a beautiful site ; it welcomes more than 2000 rowers each year :</p>
-            <ul>
-                <li>The local Saint Cassien Rowing Club with nearly 1000 practitioners from the Pays de Fayence.</li>
-                <li>The clubs and league of the Provence Region that train their competition teams every week.</li>
-                <li>The competition teams of France and Europe for intensive training courses (Rowing Camps).</li>
-            </ul>
-            <p><br>In addition, modern indoor accommodations and an exceptional view of the lake make the Rowing Base a unique place to host groups, business seminars, etc.</p>
-            <p id="petite-etoile">* Funding provided by the Pays de Fayence Communes Community, the Provence Alpes Cote d'Azur Region and the National Sports Agency on a project supported by the National French Rowing Federation. </p>
+            <h2>Qui sommes nous</h2>
+            <div class="container">
+                <div class="mySlides" style="display: block;">
+                    <img class="pres-img" src="assets/img/aviron_lac_st_cassien_automne.JPG" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <img class="pres-img" src="assets/img/st_cassien_seminaire.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <img class="pres-img" src="assets/img/loisir_fete_club_2004.JPG" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1, this)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, this)">&#10095;</a>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor active" src="assets/img/aviron_lac_st_cassien_automne.JPG" style="width:100%" onclick="currentSlide(1, this)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/img/st_cassien_seminaire.jpg" style="width:100%" onclick="currentSlide(2,  this)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/img/loisir_fete_club_2004.JPG" style="width:100%" onclick="currentSlide(3, this)">
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
