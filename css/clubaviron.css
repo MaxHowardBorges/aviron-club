@@ -176,3 +176,15 @@ h3 {
     display: flex;
     justify-content: flex-end;
 }
+
+#aviron_loisir ,#aviron_competition ,#aviron_scolaire {
+    scroll-margin-top: 136px;
+}
+
+.meteo {
+    position: absolute;
+    right: 0;
+    margin-right: 3%;
+    margin-top: 150px;
+    display: flex;
+}
