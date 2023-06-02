@@ -37,7 +37,7 @@
         </div>
     </div>
     <div id="acces">
-        <h1>Accés</h1>
+        <h1>Accès</h1>
         <div id="map">
             <img id="map1" src="assets/img/map.png" />
             <img id="map2" src="assets/img/map2.png" />
