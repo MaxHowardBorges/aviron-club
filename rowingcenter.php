@@ -31,7 +31,6 @@
             <li>The competition teams of France and Europe for intensive training courses (Rowing Camps).</li>
         </ul>
         <p><br>In addition, modern indoor accommodations and an exceptional view of the lake make the Rowing Base a unique place to host groups, business seminars, etc.</p>
-        <p id="petite-etoile">* Funding provided by the Pays de Fayence Communes Community, the Provence Alpes Cote d'Azur Region and the National Sports Agency on a project supported by the National French Rowing Federation. </p>
     </div>
     <div class="bloc_impair">
         <div class="texte">

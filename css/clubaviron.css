@@ -146,6 +146,7 @@ img {
 }
 
 .img {
+    max-width: 25%;
     box-shadow: 0px 1px 10px #484848;
 }
 
@@ -169,4 +170,9 @@ img {
 
 h3 {
     text-align: center;
+}
+
+.image {
+    display: flex;
+    justify-content: flex-end;
 }

@@ -28,7 +28,6 @@
                 <li>Les équipes de compétitions de France et d'Europe en Stage de haut niveau (Rowing Camp).</li>
             </ul>
             <p><br>Par ailleurs, les équipements disponibles et une vue exceptionnelle sur le lac font de la base d'Aviron un lieu idéal pour accueillir des groupes, séminaires dentreprise, etc.</p>
-            <p id="petite-etoile">* Financement apporté par la Communauté de Communes du Pays de Fayence, par la Région Provence Alpes Côte d'Azur, par l'Agence Nationale du Sport sur un projet soutenu par la Fédération Française d'Aviron.</p>
         </div>
         <div class="bloc_impair">
             <div class="texte">
@@ -97,7 +96,7 @@
                 <h3>Un lac calme et ensoleillé dans un environnement naturel magnifique idéal pour l'aviron, en particulier en hiver</h3>
                 <p>• 8km de long x 3 km de large avec 3 bassins de 1500 à 5500 mètres de long</p>
                 <p>• Un lac plat sans bateaux à moteurs autres que les bateaux de coaching</p>
-                <p>• Un lac peu venté, accès directe de la base d'aviron</p>
+                <p>• Un lac peu venté, accès direct de la base d'aviron</p>
             </div>
         </div>
         <div class="bloc_impair">
@@ -167,7 +166,7 @@
                 <p>• Grande salle de reunion toute équipée, divisible en deux</p>
                 <p>• Grande terrasse avec vue sur le lac</p>
                 <p>• Offre de services de repas et cocktail à proximité</p>
-                <p>• Initiation à l'aviron et autres activités au tour du lac</p>
+                <p>• Initiation à l'aviron et autres activités autour du lac</p>
                 <p>• Logements de qualité à moins de 5 km (appart-hotel, bungalow, ...)</p>
             </div>
         </div>
