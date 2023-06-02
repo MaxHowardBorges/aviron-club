@@ -17,41 +17,27 @@
     <div class="titre-page">
         <h1>Informations</h1>
     </div>
-    <div class="intro">
-        <h2>Transport</h2>
+    <h2>Transport</h2>
+    <div class="transport">
         <img id="map3" src="assets/img/map3.png" />
         <div class="texte">
-            <p>
-            By plane: Nice airport/ Car rental/ Highway A8 -> Marseille/ exit 39 (40km)<br>
-            By train: Cannes station/ Car rental/Highway A8 -> Marseille/ exit 39 (20km)<br>
-            By car: Highway A8 to “les Adrets” exit 39 ->Montauroux<br>
-            From the highway exit 39, the rowing center is 500m on the left after crossing the large bridge over the lake<br>
-            </p>
+            <p>By plane: Nice airport/ Car rental/ Highway A8 -> Marseille/ exit 39 (40km)</p>
+            <p>By train: Cannes station/ Car rental/Highway A8 -> Marseille/ exit 39 (20km)</p>
+            <p>By car: Highway A8 to “les Adrets” exit 39 ->Montauroux</p>
+            <p>From the highway exit 39, the rowing center is 500m on the left after crossing the large bridge over the lake</p>
         </div>
     </div>
-    <div class="intro">
-        <h2>Logement</h2>
+    <h2>Logement</h2>
+    <div class="logement">
         <div class="texte2">
-            <p>Le Champ d’Eysson: appart-hotel</p>
-            <a href="https://champdeysson.com/" target="_blank">
-                <button class="b3">En savoir plus</button>
-            </a>
-            <p>Camping les Floralies: bungalows</p>
-            <a href="https://www.domainedesfloralies.fr/" target="_blank">
-                <button class="b3">En savoir plus</button>
-            </a>
-            <p>Les Gîtes du lac: gîtes</p>
-            <a href="https://www.lesgitesdulac.com/" target="_blank">
-                <button class="b3">En savoir plus</button>
-            </a>
-            <p>Auberge des Pins : hotel</p>
-            <a href="https://www.aubergedespins.com/index.php/fr/" target="_blank">
-                <button class="b3">En savoir plus</button>
-            </a>
+            <p>Le Champ d'Eysson: appart-hotel. <a href="https://champdeysson.com/" target="_blank">Visiter le site</a></p>
+            <p>Camping les Floralies: bungalows. <a href="https://www.domainedesfloralies.fr/" target="_blank">Visiter le site</a></p>
+            <p>Les Gîtes du lac: gîtes. <a href="https://www.lesgitesdulac.com/" target="_blank">Visiter le site</a></p>
+            <p>Auberge des Pins : hotel. <a href="https://www.aubergedespins.com/index.php/fr/" target="_blank">Visiter le site</a></p>
         </div>
     </div>
-    <div class="intro">
-        <h2>Tourisme</h2>
+    <h2>Tourisme</h2>
+    <div class="tourisme">
         <a href="https://www.paysdefayence.com/" target="_blank">
             <button class="b3">En savoir plus</button>
         </a>
