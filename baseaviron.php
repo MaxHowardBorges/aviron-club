@@ -73,13 +73,17 @@
         </div>
     </div>
     <div class="bloc_pair">
-        <div class="container">
+    <div class="container">
             <div class="mySlides" style="display: block;">
                 <img class="pres-img" src="assets/img/lac_st_cassien_aviron.jpg" style="width:100%">
             </div>
 
             <div class="mySlides">
                 <img class="pres-img" src="assets/img/plan_bassin.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img class="pres-img" src="assets/img/compétition huit minime filles.jpg" style="width:100%">
             </div>
 
             <a class="prev" onclick="plusSlides(-1, this)">&#10094;</a>
@@ -92,14 +96,19 @@
                 <div class="column">
                     <img class="demo cursor" src="assets/img/plan_bassin.png" style="width:100%" onclick="currentSlide(2,  this)">
                 </div>
+                <div class="column">
+                    <img class="demo cursor" src="assets/img/compétition huit minime filles.jpg" style="width:100%" onclick="currentSlide(3,  this)">
+                </div>
             </div>
         </div>
         <div class="texte">
             <h2>Lac St Cassien</h2>
-            <h3>Un lac calme et ensoleillé dans un environnement naturel magnifique idéal pour l'aviron, en particulier en hiver</h3>
-            <p>• 8km de long x 3 km de large avec 3 bassins de 1500 à 5500 mètres de long</p>
-            <p>• Un lac plat sans bateaux à moteurs autres que les bateaux de coaching</p>
-            <p>• Un lac peu venté, accès direct de la base d'aviron</p>
+            <h3>Un lac calme et ensoleillé dans un environnement naturel magnifique idéal pour l’aviron, en particulier en hiver</h3>
+            <p>• 8km de long x 2 km de large , tour du lac 13 km</p>
+            <p>• 3 bassins navigables de 1500 à 5500 m de longueur</p>
+            <p>• Un lac calme, avec peu de vent et peu de bateaux à moteur autres que les bateaux de coaching</p>
+            <p>• Un environnement naturel boisé magnifique et vue sur les Alpes Maritimes</p>
+            <p>• Accès direct de la base d’aviron avec 3 pontons</p>
         </div>
     </div>
     <div class="bloc_impair">
@@ -180,15 +189,35 @@
         <h2>Qui sommes-nous</h2>
         <div class="container">
             <div class="mySlides" style="display: block;">
-                <img class="pres-img" src="assets/img/aviron_lac_st_cassien_automne.JPG" style="width:100%">
+                <img class="pres-img" src="assets/img/AG_Lionel-Fasola_Club_Aviron_StCassien_06042019-e1625992883334.jpg" style="width:100%">
             </div>
 
             <div class="mySlides">
-                <img class="pres-img" src="assets/img/st_cassien_seminaire.jpg" style="width:100%">
+                <img class="pres-img" src="assets/img/AG_ODescampq_Club_Aviron_StCassien_06042019-e1625992718742.jpg" style="width:100%">
             </div>
 
             <div class="mySlides">
                 <img class="pres-img" src="assets/img/loisir_fete_club_2004.JPG" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img class="pres-img" src="assets/img/Coach-Nicolas.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img class="pres-img" src="assets/img/Luc-Crispon.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img class="pres-img" src="assets/img/compétition 2023 2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img class="pres-img" src="assets/img/Scolaire Julien 2022 .jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img class="pres-img" src="assets/img/coach Facundo.jpeg" style="width:100%">
             </div>
 
             <a class="prev" onclick="plusSlides(-1, this)">&#10094;</a>
@@ -196,13 +225,28 @@
 
             <div class="row">
                 <div class="column">
-                    <img class="demo cursor active" src="assets/img/aviron_lac_st_cassien_automne.JPG" style="width:100%" onclick="currentSlide(1, this)">
+                    <img class="demo cursor active" src="assets/img/AG_Lionel-Fasola_Club_Aviron_StCassien_06042019-e1625992883334.jpg" style="width:100%" onclick="currentSlide(1, this)">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="assets/img/st_cassien_seminaire.jpg" style="width:100%" onclick="currentSlide(2,  this)">
+                    <img class="demo cursor" src="assets/img/AG_ODescampq_Club_Aviron_StCassien_06042019-e1625992718742.jpg" style="width:100%" onclick="currentSlide(2,  this)">
                 </div>
                 <div class="column">
                     <img class="demo cursor" src="assets/img/loisir_fete_club_2004.JPG" style="width:100%" onclick="currentSlide(3, this)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="assets/img/Coach-Nicolas.jpg" style="width:100%" onclick="currentSlide(4, this)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="assets/img/Luc-Crispon.jpg" style="width:100%" onclick="currentSlide(5, this)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="assets/img/compétition 2023 2.jpg" style="width:100%" onclick="currentSlide(6, this)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="assets/img/Scolaire Julien 2022 .jpg" style="width:100%" onclick="currentSlide(7, this)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="assets/img/coach Facundo.jpeg" style="width:100%" onclick="currentSlide(8, this)">
                 </div>
             </div>
         </div>
