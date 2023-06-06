@@ -97,20 +97,48 @@ body {
 }
 
 .neutre {
-    align-items: center;
-    padding: 0 15% 2% 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 0 15% 5% 15%;
 }
 
-#petite-etoile {
-    font-size: 12px;
+li {
+    list-style: none;
+}
+
+a {
+    color: #579678;
+    position: relative;
+    text-decoration: none;
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #579678;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
 }
 
 .bloc_impair, .bloc_pair {
-    display: block;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     box-sizing: border-box;
-    padding: 3%;
+    padding: 1% 5% 5% 5%;
 }
 
 .bloc_impair {
@@ -123,7 +151,7 @@ body {
 
 h2 {
     color: #007300;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 h3 {
@@ -141,50 +169,31 @@ p {
     font-family: montserrat-semibold;
 }
 
-img {
-    max-width: 100%;
+.loisir {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 2%;
+}
+
+.texte {
+    padding: 0 10% 0 2%;
 }
 
 .img {
-    max-width: 25%;
     box-shadow: 0px 1px 10px #484848;
+    position: relative;
 }
 
 .intro {
     display: block;
-    margin:auto;
-}
-
-.sommaire {
-    display: flex;
-    justify-content: center;
-}
-
-#sommaire {
-    text-align: center;
-}
-
-.neutre p{
-    text-align: center;
+    margin: auto;
 }
 
 h3 {
     text-align: center;
 }
 
-.image {
-    display: flex;
-    justify-content: flex-end;
-}
-
 #aviron_loisir ,#aviron_competition ,#aviron_scolaire {
-    scroll-margin-top: 136px;
-}
-
-.meteo {
-    position: absolute;
-    right: 0;
-    margin-right: 3%;
-    margin-top: 150px;
-    display: flex;
+    scroll-margin-top: 50px;
 }
