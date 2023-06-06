@@ -108,7 +108,7 @@
             <p>• 3 bassins navigables de 1500 à 5500 m de longueur</p>
             <p>• Un lac calme, avec peu de vent et peu de bateaux à moteur autres que les bateaux de coaching</p>
             <p>• Un environnement naturel boisé magnifique et vue sur les Alpes Maritimes</p>
-            <p>• Accès direct de la base d’aviron avec 3 pontons</p>
+            <p>• Accès direct de la base d'aviron avec 3 pontons</p>
         </div>
     </div>
     <div class="bloc_impair">

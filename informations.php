@@ -7,10 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Informations</title>
     <link rel="stylesheet" href="css/informations.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <?php require_once 'navigation.html'; ?>
 
 <body>
+    <div class="meteo-langue">
+        <div class="meteo"><a href="https://www.meteociel.fr/previsions/30949/montauroux.htm" title="Météo" target="_blank"><i class="fa-solid fa-cloud-sun fa-4x" width="90" height="60"></i></a></div>
+        <div class="langue"><a href="en_information.php" title="English page"><img id="langue" src="assets/img/flag_english.jpg" alt="langue anglais" width="90" height="60"></a></div>
+    </div>
     <div id="background"></div>
 
     <div class="titre-page">
@@ -32,15 +37,15 @@
         <div class="logement">
             <h2>Logement</h2>
             <div class="texte-logement">
-                <p>Le Champ d'Eysson: appart-hotel - <a href="https://champdeysson.com/" target="_blank">champdeysson.com</a></p>
-                <p>Camping les Floralies: bungalows - <a href="https://www.domainedesfloralies.fr/" target="_blank">www.domainedesfloralies.fr</a></p>
-                <p>Les Gîtes du lac: gîtes - <a href="https://www.lesgitesdulac.com/" target="_blank">www.lesgitesdulac.com</a></p>
-                <p>Auberge des Pins: hotel - <a href="https://www.aubergedespins.com/index.php/fr/" target="_blank">www.aubergedespins.com</a></p>
+                <p>Le Champ d'Eysson: appart-hotel - <a class="lien" href="https://champdeysson.com/" target="_blank">champdeysson.com</a></p>
+                <p>Camping les Floralies: bungalows - <a class="lien"href="https://www.domainedesfloralies.fr/" target="_blank">www.domainedesfloralies.fr</a></p>
+                <p>Les Gîtes du lac: gîtes - <a class="lien" href="https://www.lesgitesdulac.com/" target="_blank">www.lesgitesdulac.com</a></p>
+                <p>Auberge des Pins: hotel - <a class="lien" href="https://www.aubergedespins.com/index.php/fr/" target="_blank">www.aubergedespins.com</a></p>
             </div>
         </div>
         <div class="tourisme">
             <h2>Tourisme</h2>
-            <p> Pour en savoir plus : <a href="https://www.paysdefayence.com/" target="_blank">www.paysdefayence.com</a></p>
+            <p> Pour en savoir plus : <a class="lien" href="https://www.paysdefayence.com/" target="_blank">www.paysdefayence.com</a></p>
         </div>
     </div>
 </body>
