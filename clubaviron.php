@@ -35,66 +35,71 @@
         <div class="loisir">
             <div class="texte">
                 <h4>Aviron Loisirs Adulte</h4>
-                <p>L'aviron est une activité physique ouverte à tous sans limite d'âge. 
-                    Un sport complet, excellent pour une remise en forme douce et progressive ou pour les amateurs de sensations physique intense. 
-                    Le club accueil les débutants les mercredis et samedis matin à 9h de septembre à Juin et organise des stages l'été. 
+                <p>L'aviron est une activité physique ouverte à tous sans limite d'âge.
+                    Un sport complet, excellent pour une remise en forme douce et progressive ou pour les amateurs de sensations physique intense.
+                    Le club accueil les débutants les mercredis et samedis matin à 9h de septembre à Juin et organise des stages l'été.
                     Une fois confirmé vous pourrez ramer tous les matins toutes l'année en bateau solo, double, à quatre et même à huit.<br></p>
                 <p>Renseignements : Téléphone : +33 (0)6 89 32 39 72 - Courriel : contact@avironstcassien.com</p>
             </div>
             <div class="image">
-                <img class="img" src="assets/img/loisir_fete_club_2004.JPG" style="width:100%">
+                <img class="img" src="assets/img/loisir-3-Mimosas-scaled.jpg" style="width:100%">
+            </div>
+        </div>
+        <div class="loisir">
+            <div class="texte">
+                <h4>Aviron santé</h4>
+                <p>L'Aviron, un sport complet sans choc ni torsion, accessible à tous, pour une remise en forme douce adaptée à la condition physique de chacun :</p>
+                <ul>
+                    <li>Pour ceux qui ont eu des problèmes de santé et cherche une pratique sportive pour retrouver la forme.</li>
+                    <li>Pour ceux qui veulent se reconstruire après une intervention chirurgicale en accord avec leur médecin.</li>
+                    <li>Pour ceux qui aime le sport de pleine nature et veulent profiter du cadre magnifique du lac de St Cassien.</li>
+                    <li>Des séances encadrées dédiées au sport santé sous prescription médicales. Tarif découverte, 50€ les 5 séances.</li>
+                </ul>
+                <p><br>Il est impératif de savoir nager.<br></p>
+                <p>Renseignements : Téléphone : +33 (0)6 89 32 39 72 - Courriel : contact@avironstcassien.com</p>
+            </div>
+            <div class="image">
+                <img class="img" src="assets/img/loisir initiation.jpg" style="width:100%">
+            </div>
+        </div>
+        <div class="loisir">
+            <div class="texte">
+                <h4>"Club Jeunes" - Loisirs Ados</h4>
+                <ul>
+                    <li>Les séances du “Club Jeunes” sont les samedis après-midi de 14h00 à 17h00 de début septembre à début juillet (période scolaire).
+                         Les séances sont encadrées par un entraineur et entre jeunes. Enfants, adolescents âgés de 10 à 18 ans. Il est impératif de savoir nager (brevet de natation scolaire demandé).
+                          Tarif : Voir fiche des tarifs ci-dessus.</li>
+                </ul>
+                <p><br>Renseignements : Téléphone : +33 (0)6 89 32 39 72 - Courriel : contact@avironstcassien.com<br></p>
+                <ul>
+                    <li>Télécharger, remplir, à donner à un initiateur  le : Formulaire des tarifs et d'inscription</li>
+                </ul>
+            </div>
+            <div class="image">
+                <img class="img" src="assets/img/Loisiris-Ado-e1630008256622.jpg" style="width:100%">
+            </div>
+        </div>
+        <div class="loisir">
+            <div class="texte">
+                <h4>Avi-FIT</h4>
+                <p>Des séances dynamique en salle pour améliorer sa condition physique (musculation et cardio)
+                 en bénéficiant des infrastructures modernes dans le cadre naturel exceptionnel de la Base d'Aviron de St Cassien.<br></p>
+                <p>Renseignements : Téléphone : +33 (0)6 89 32 39 72 - Courriel : contact@avironstcassien.com</p>
+            </div>
+            <div class="image">
+                <img class="img" src="assets/img/ffaviron-actualite-formation-coach-avifit-coach-aviron-indoor-20190506163311.jpg" style="width:100%">
             </div>
         </div>
         <div class="loisir">
             <div class="texte">
                 <h4>Aviron Loisirs Adulte</h4>
-                <p>L'aviron est une activité physique ouverte à tous sans limite d'âge. 
-                    Un sport complet, excellent pour une remise en forme douce et progressive ou pour les amateurs de sensations physique intense. 
-                    Le club accueil les débutants les mercredis et samedis matin à 9h de septembre à Juin et organise des stages l'été. 
-                    Une fois confirmé vous pourrez ramer tous les matins toutes l'année en bateau solo, double, à quatre et même à huit.<br></p>
+                <p>L'aviron loisir c'est aussi des escapades à l'aviron sur d'autres plan d'eau de France et d'ailleurs ;
+                 une façon originale de découvrir d'autres sites où un accueil chaleureux du club local vous attend… St Cassien organise sa propre rando : 
+                 la rando des mimosas qui a lieu tous les ans à la mi-février.<br></p>
                 <p>Renseignements : Téléphone : +33 (0)6 89 32 39 72 - Courriel : contact@avironstcassien.com</p>
             </div>
             <div class="image">
-                <img class="img" src="assets/img/loisir_fete_club_2004.JPG" style="width:100%">
-            </div>
-        </div>
-        <div class="loisir">
-            <div class="texte">
-                <h4>Aviron Loisirs Adulte</h4>
-                <p>L'aviron est une activité physique ouverte à tous sans limite d'âge. 
-                    Un sport complet, excellent pour une remise en forme douce et progressive ou pour les amateurs de sensations physique intense. 
-                    Le club accueil les débutants les mercredis et samedis matin à 9h de septembre à Juin et organise des stages l'été. 
-                    Une fois confirmé vous pourrez ramer tous les matins toutes l'année en bateau solo, double, à quatre et même à huit.<br></p>
-                <p>Renseignements : Téléphone : +33 (0)6 89 32 39 72 - Courriel : contact@avironstcassien.com</p>
-            </div>
-            <div class="image">
-                <img class="img" src="assets/img/loisir_fete_club_2004.JPG" style="width:100%">
-            </div>
-        </div>
-        <div class="loisir">
-            <div class="texte">
-                <h4>Aviron Loisirs Adulte</h4>
-                <p>L'aviron est une activité physique ouverte à tous sans limite d'âge. 
-                    Un sport complet, excellent pour une remise en forme douce et progressive ou pour les amateurs de sensations physique intense. 
-                    Le club accueil les débutants les mercredis et samedis matin à 9h de septembre à Juin et organise des stages l'été. 
-                    Une fois confirmé vous pourrez ramer tous les matins toutes l'année en bateau solo, double, à quatre et même à huit.<br></p>
-                <p>Renseignements : Téléphone : +33 (0)6 89 32 39 72 - Courriel : contact@avironstcassien.com</p>
-            </div>
-            <div class="image">
-                <img class="img" src="assets/img/loisir_fete_club_2004.JPG" style="width:100%">
-            </div>
-        </div>
-        <div class="loisir">
-            <div class="texte">
-                <h4>Aviron Loisirs Adulte</h4>
-                <p>L'aviron est une activité physique ouverte à tous sans limite d'âge. 
-                    Un sport complet, excellent pour une remise en forme douce et progressive ou pour les amateurs de sensations physique intense. 
-                    Le club accueil les débutants les mercredis et samedis matin à 9h de septembre à Juin et organise des stages l'été. 
-                    Une fois confirmé vous pourrez ramer tous les matins toutes l'année en bateau solo, double, à quatre et même à huit.<br></p>
-                <p>Renseignements : Téléphone : +33 (0)6 89 32 39 72 - Courriel : contact@avironstcassien.com</p>
-            </div>
-            <div class="image">
-                <img class="img" src="assets/img/loisir_fete_club_2004.JPG" style="width:100%">
+                <img class="img" src="assets/img/rando_VENISE_Italie_2012-scaled.jpg" style="width:100%">
             </div>
         </div>
     </div>
