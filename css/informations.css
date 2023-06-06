@@ -53,6 +53,10 @@ body {
     display: block;
 }
 
+#transport {
+    padding-left: 7%;
+}
+
 .transport {
     display: flex;
     align-items: center;
@@ -61,14 +65,14 @@ body {
     padding: 3%;
 }
 
+.div-transport {
+    padding: 1%;
+    display:block;
+}
+
 .intro {
     display: block;
     margin:auto;
-}
-
-.texte {
-    display: flex;
-    justify-content: center;
 }
 
 p {
@@ -83,39 +87,12 @@ p {
 h2 {
     color: #007300;
     font-size: 30px;
-    padding-left: 5%;
 }
 
-#map3 {
+img {
     display: block;
     width: 50%;
     margin: auto;
-}
-
-button {
-    background-color: #3d458b;
-    border: none;
-    color: #ffffff;
-    text-decoration: none;
-    height: 50px;
-    width: 150px;
-    font-size: 16px;
-    border-radius: 8px;
-    transition: transform 500ms ease-in-out-back,
-    background-position 800ms ease-in-out-back, box-shadow 500ms linear;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-button:hover {
-    transform: scale(1.02);
-    background-position: -60px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-
-button:active {
-    transform: scale(1);
-    background-position: 500px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .texte {
@@ -123,13 +100,16 @@ button:active {
     flex-basis: 40%;
 }
 
-.texte2 {
-    text-align: center;
+.logement-tourisme {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 1%;
 }
 
-.b3 {
-    display: block;
-    margin: auto;
+.logement, .tourisme {
+    text-align: left;
 }
 
 a {
@@ -150,9 +130,9 @@ a::before {
     transform-origin: right;
     transform: scaleX(0);
     transition: transform .3s ease-in-out;
-  }
+}
 
-  a:hover::before {
+a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
-  }
+}
