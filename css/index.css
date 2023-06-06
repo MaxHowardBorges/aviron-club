@@ -174,16 +174,20 @@ footer {
     margin-top: 25px;
 }
 
-#map1{
+#cartefrance{
     flex-basis: 35%;
-    margin-left: 25px;
+    margin-left: 3px;
     margin-right: 15px;
-    width: 10%;
+    width: 35%;
 }
 
-#map2{
+.googlemaps {
+    display: flex;
+}
+
+#cartezoom{
     flex-basis: 65%;
-    width: 40%;
+    width: 100%;
 }
 
 #button_savoir_plus{
