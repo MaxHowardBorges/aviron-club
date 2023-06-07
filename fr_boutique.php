@@ -31,7 +31,7 @@
     */
     ?>
         <div class="article">
-            <a href="fr_description.php">
+            <!--<a href="fr_description.php">-->
                 <section class='article-apercu'>
                     <img src="assets/img/Saint-Cassien-logo.png" class="img-apercu-gauche" alt="image produit">
                     <h3>article1</h3>
