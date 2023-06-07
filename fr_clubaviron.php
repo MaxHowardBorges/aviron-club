@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Base d'aviron</title>
+    <title>Club d'aviron</title>
     <link rel="stylesheet" href="css/clubaviron.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
-<?php require_once 'navigation.html'; ?>
+<?php require_once 'fr_navigation.html'; ?>
 
 <body>
     <div class="meteo-langue">
@@ -95,7 +95,7 @@
         </div>
         <div class="loisir">
             <div class="texte">
-                <h4>Aviron Loisirs Adulte</h4>
+                <h4>Rando'Aviron - Sorties Adultes</h4>
                 <p>L'aviron loisir c'est aussi des escapades à l'aviron sur d'autres plan d'eau de France et d'ailleurs ;
                  une façon originale de découvrir d'autres sites où un accueil chaleureux du club local vous attend… St Cassien organise sa propre rando : 
                  la rando des mimosas qui a lieu tous les ans à la mi-février.<br></p>
@@ -141,7 +141,7 @@
         <div class="texte">
             <p>Du CM2 à la terminale le Club accueille chaque année près de 800 jeunes dans le cadre de conventions annuelles passées avec les établissements scolaires, l’UNSS et l’académie.<br>
                 Accueil également de classes hors convention annuelle pour des séances découvertes sur une ou plusieurs journées.<br>
-                Deux entraîneurs, brevet d’Etat, assurent l’encadrement technique des séances avec, selon l’activité, la présence des enseignants.<br>
+                Deux entraîneurs, brevet d'Etat, assurent l’encadrement technique des séances avec, selon l’activité, la présence des enseignants.<br>
                 Participation aux championnats d’académie avec de nombreux titres de champion d’académie et de champion de France des Collèges et des Lycées.<br>
                 Les sections aviron du collège Léonard de Vinci à Montauroux et du Lycée St Exupéry à St Raphaël sont les principales portes d’entrées à la section compétition du Club.</p>
             <p>• CM2 : classes découvertes de 6 séances par saison pour toutes les écoles primaires du Pays de Fayence<br>
@@ -165,5 +165,5 @@
 
     </div>
 </body>
-
+<?php require_once 'fr_footer.html'; ?>
 </html>

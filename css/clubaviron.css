@@ -143,17 +143,28 @@ p {
 .loisir {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    padding-top: 2%;
+    align-items: center;
+    margin-top: 3%;
+    padding: 3%;
+    border-top: 2px solid #007300;
+    /*
+    border: 1px black;
+    box-shadow: 0px 1px 10px #48484870;
+    border-radius: 5px;
+    */
 }
 
-.texte {
-    padding: 0 10% 0 2%;
+.image {
+    max-width: 100%;
+    flex-basis: 30%;
 }
 
 .img {
     box-shadow: 0px 1px 10px #484848;
-    position: relative;
+}
+
+.texte {
+    flex-basis: 60%;
 }
 
 .intro {
