@@ -252,5 +252,5 @@
         </div>
     </div>
 </body>
-
+<?php require_once 'fr_footer.html'; ?>
 </html>

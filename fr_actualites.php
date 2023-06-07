@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -22,5 +22,5 @@
         <h1>Actualités</h1>
     </div>
 </body>
-
+<?php require_once 'fr_footer.html'; ?>
 </html>

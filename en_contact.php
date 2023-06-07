@@ -22,5 +22,6 @@
         <h1>Contact</h1>
     </div>
 </body>
+<?php require_once 'en_footer.html'; ?>
 
 </html>

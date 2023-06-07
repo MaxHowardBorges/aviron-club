@@ -108,19 +108,21 @@ a {
     width: 250px;
     margin: 60px;
     padding: 8px;
-    background-color: #dee9fc;
-    border-radius: 2%;
-    box-shadow: 2px 2px 3px #000000;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    background-color: #609b9633;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px #00000070;
 }
 
 .article-apercu:hover {
-    box-shadow: 5px 5px 10px #000000;
-    -webkit-transform: scale(1.003);
-    transform: scale(1.003);
+    transform: scale(1.02);
+    background-position: -60px;
+    box-shadow: 0 3px 6px #000000ab;
+}
+
+.article-apercu:active {
+    transform: scale(1);
+    background-position: 500px;
+    box-shadow: 0 1px 3px #00000070;
 }
 
 .img-apercu-gauche {
