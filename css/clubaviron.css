@@ -103,31 +103,6 @@ body {
     padding: 0 15% 5% 15%;
 }
 
-a {
-    color: #579678;
-    position: relative;
-    text-decoration: none;
-}
-
-a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    border-radius: 4px;
-    background-color: #579678;
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
-}
-
-a:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
-}
-
 .bloc_impair, .bloc_pair {
     display: flex;
     flex-direction: column;
@@ -190,6 +165,35 @@ h3 {
     text-align: center;
 }
 
-#aviron_loisir ,#aviron_competition ,#aviron_scolaire {
+#aviron_loisir {
+    scroll-margin-top: 136px;
+}
+
+#aviron_competition ,#aviron_scolaire {
     scroll-margin-top: 50px;
+}
+
+a.lien {
+    color: #579678;
+    position: relative;
+    text-decoration: none;
+}
+
+a.lien::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #579678;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+a.lien:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
 }

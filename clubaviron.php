@@ -25,13 +25,16 @@
         <p>L'Aviron à St Cassien : Une activité sportive de plein air dans un cadre magnifique, accessible à tous à partir de 10 ans, du débutant au sportif confirmé.</p>
         <h2>Sommaire</h2>
         <ul>
-            <li><a href="#aviron_loisir">Aviron loisir</a></li>
-            <li><a href="#aviron_competition">Aviron compétition</a></li>
-            <li><a href="#aviron_scolaire">Aviron scolaire</a></li>
+            <li><a class="lien" href="#aviron_loisir">Aviron loisir</a></li>
+            <li><a class="lien" href="#aviron_competition">Aviron compétition</a></li>
+            <li><a class="lien" href="#aviron_scolaire">Aviron scolaire</a></li>
         </ul>
     </div>
     <div class="bloc_impair">
         <h3 id="aviron_loisir">Aviron loisir</h3>
+        <div class="pdf-inscription">
+            <p>Télécharger et remplir le <a class="lien" href="assets/pdf/club_aviron_st-cassien_demande_inscription.pdf" target="_blank">PDF d'inscription</a></p>
+        </div>
         <div class="loisir">
             <div class="texte">
                 <h4>Aviron Loisirs Adulte</h4>
