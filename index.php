@@ -9,14 +9,14 @@
         <link rel="stylesheet" href="css/index.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     </head>
-    <?php require_once 'navigation.html'; ?>
+    <?php require_once 'fr_navigation.html'; ?>
     <body>
     <div class="meteo"><a href="https://www.meteociel.fr/previsions/30949/montauroux.htm" title="Météo" target="_blank"><i class="fa-solid fa-cloud-sun fa-4x" width="90" height="60"></i></a></div>
 
     <div id="background">      
 
-        <div id="bb"><button id="b1" onclick="window.location.href = 'baseaviron.php';">Saint Cassien International Rowing Center</button>
-        <button id="b2" onclick="window.location.href = 'clubaviron.php';">Le Club d'Aviron <br>Saint Cassien</button></div>
+        <div id="bb"><button id="b1" onclick="window.location.href = 'fr_baseaviron.php';">Saint Cassien International Rowing Center</button>
+        <button id="b2" onclick="window.location.href = 'fr_clubaviron.php';">Le Club d'Aviron <br>Saint Cassien</button></div>
 
     </div>
     <div id="video">
@@ -45,7 +45,7 @@
             </a>
         </div>
         <div id="button_savoir_plus">
-            <button id="b3" onclick="window.location.href = 'informations.php';">En savoir plus</button>
+            <button id="b3" onclick="window.location.href = 'fr_informations.php';">En savoir plus</button>
         </div>
     </div>
     </body>
