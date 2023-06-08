@@ -224,7 +224,7 @@
             <a class="next" onclick="plusSlides(1, this)">&#10095;</a>
 
             <div class="caption-container">
-                <p id="caption"></p>
+                <p id="caption">Président : Lionel FASOLA</p>
             </div>
 
             <div class="row">

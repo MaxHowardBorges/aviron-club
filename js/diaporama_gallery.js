@@ -40,5 +40,5 @@ function showSlides(n, slideContainer) {
   }
 
   slideContainer.setAttribute("data-slide-index", n);
-  //captionText.innerHTML = dots[slideIndex-1].alt;
+  captionText.innerHTML = dots[n - 1].getAttribute("alt");
 }
