@@ -207,3 +207,16 @@ button:active {
 .fa-circle-up {
     color: #3d458b;
 }
+
+.caption-container {
+    text-align: center;
+    padding: 2px 16px;
+    color: #000000;
+    font-family: montserrat-semibold;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

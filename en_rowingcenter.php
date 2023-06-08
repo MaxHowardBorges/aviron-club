@@ -222,30 +222,34 @@
             <a class="prev" onclick="plusSlides(-1, this)">&#10094;</a>
             <a class="next" onclick="plusSlides(1, this)">&#10095;</a>
 
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
             <div class="row">
                 <div class="column">
-                    <img class="demo cursor active" src="assets/img/AG_Lionel-Fasola_Club_Aviron_StCassien_06042019-e1625992883334.jpg" style="width:100%" onclick="currentSlide(1, this)">
+                    <img class="demo cursor active" src="assets/img/AG_Lionel-Fasola_Club_Aviron_StCassien_06042019-e1625992883334.jpg" style="width:100%" onclick="currentSlide(1, this)" alt="Président : Lionel FASOLA">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="assets/img/AG_ODescampq_Club_Aviron_StCassien_06042019-e1625992718742.jpg" style="width:100%" onclick="currentSlide(2,  this)">
+                    <img class="demo cursor" src="assets/img/AG_ODescampq_Club_Aviron_StCassien_06042019-e1625992718742.jpg" style="width:100%" onclick="currentSlide(2,  this)" alt="Vice-Président : Olivier DESCAMPS">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="assets/img/loisir_fete_club_2004.JPG" style="width:100%" onclick="currentSlide(3, this)">
+                    <img class="demo cursor" src="assets/img/loisir_fete_club_2004.JPG" style="width:100%" onclick="currentSlide(3, this)" alt="Equipe Aviron Loisirs">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="assets/img/Coach-Nicolas.jpg" style="width:100%" onclick="currentSlide(4, this)">
+                    <img class="demo cursor" src="assets/img/Coach-Nicolas.jpg" style="width:100%" onclick="currentSlide(4, this)" alt="Coach : Nicolas VERNAZZA">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="assets/img/Luc-Crispon.jpg" style="width:100%" onclick="currentSlide(5, this)">
+                    <img class="demo cursor" src="assets/img/Luc-Crispon.jpg" style="width:100%" onclick="currentSlide(5, this)" alt="Coach : Luc CRISPON">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="assets/img/compétition 2023 2.jpg" style="width:100%" onclick="currentSlide(6, this)">
+                    <img class="demo cursor" src="assets/img/compétition 2023 2.jpg" style="width:100%" onclick="currentSlide(6, this)" alt="Equipe de Compétition / Competition Team">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="assets/img/Scolaire Julien 2022 .jpg" style="width:100%" onclick="currentSlide(7, this)">
+                    <img class="demo cursor" src="assets/img/Scolaire Julien 2022 .jpg" style="width:100%" onclick="currentSlide(7, this)" alt="Coach Section Sportive Collège : Julien FERRIER">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="assets/img/coach Facundo.jpeg" style="width:100%" onclick="currentSlide(8, this)">
+                    <img class="demo cursor" src="assets/img/coach Facundo.jpeg" style="width:100%" onclick="currentSlide(8, this)" alt="Coach : Facundo AGUILA">
                 </div>
             </div>
         </div>
@@ -255,4 +259,5 @@
     </div>
 </body>
 <?php require_once 'en_footer.html'; ?>
+
 </html>

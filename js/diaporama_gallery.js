@@ -18,6 +18,7 @@ function currentSlide(n, element) {
 function showSlides(n, slideContainer) {
   const slides = slideContainer.getElementsByClassName("mySlides");
   const dots = slideContainer.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
 
   if (n > slides.length) {
     n = 1;
@@ -39,4 +40,5 @@ function showSlides(n, slideContainer) {
   }
 
   slideContainer.setAttribute("data-slide-index", n);
+  //captionText.innerHTML = dots[slideIndex-1].alt;
 }
