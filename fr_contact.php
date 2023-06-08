@@ -21,16 +21,14 @@
     <div class="titre-page">
         <h1>Contacts</h1>
     </div>
-    <div class=texte>
+    <div class="contacts">
         <p>Impasse de la base d'Aviron - 855 Chemin du Gabinet - 83440 Montauroux - FRANCE .</p>
-        <p>Email: contact@avironstcassien.com</p>
+        <p>Email : contact@avironstcassien.com</p>
         <p>Téléphone : +33 (0)6 89 32 39 72</p>
     </div>
-    <div class='reseau-sociaux'>
-        <p>Facebook</p>
-        <div class="facebook"><a href="https://www.facebook.com/ClubDavironDeStCassien" title="Facebook" target="_blank"><i class="fa-brands fa-facebook" width="90" height="60"></i></a></div>
-        <p>Instagram</p>
-        <div class="instagram"><a href="https://www.instagram.com/clubavironsaintcassien/" title="Instagram" target="_blank"><i class="fa-brands fa-instagram" width="90" height="60"></i></a></div>
+    <div class="reseau-sociaux">
+        <div class="facebook"><p>Facebook</p><a href="https://www.facebook.com/ClubDavironDeStCassien" title="Facebook" target="_blank"><i class="fa-brands fa-facebook fa-3x"></i></a></div>
+        <div class="instagram"><p>Instagram</p><a href="https://www.instagram.com/clubavironsaintcassien/" title="Instagram" target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a></div>
     </div>
 </body>
 <?php require_once 'fr_footer.html'; ?>

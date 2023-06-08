@@ -79,7 +79,7 @@ body {
 }
 
 .titre-page {
-    background-color: #3d458b;
+    background-color: #4fab81;
     color: #ffffff;
     box-shadow: 0px 1px 10px #808080;
     max-width: 400px;
@@ -100,10 +100,27 @@ p {
     font-family: montserrat-semibold;
 }
 
-.fa-brands {
-    color: #000000;
+.contacts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.texte {
-    flex-basis: 40%;
+.reseau-sociaux {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook, .instagram {
+    text-align: center;
+    padding: 1%;
+}
+
+.facebook, .fa-facebook{
+    color: #4267B2;
+}
+
+.instagram, .fa-instagram {
+    color: #973E8E;
 }
