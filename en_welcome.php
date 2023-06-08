@@ -11,7 +11,10 @@
     </head>
     <?php require_once 'en_navigation.html'; ?>
     <body>
-    <div class="meteo"><a href="https://www.meteociel.fr/previsions/30949/montauroux.htm" title="Weather" target="_blank"><i class="fa-solid fa-cloud-sun fa-4x" width="90" height="60"></i></a></div>
+    <div class="meteo-langue">
+        <div class="meteo"><a href="https://www.meteociel.fr/previsions/30949/montauroux.htm" title="Weather" target="_blank"><i class="fa-solid fa-cloud-sun fa-4x" width="90" height="60"></i></a></div>
+        <div class="langue"><a href="fr_bienvenue.php" title="Page française"><img id="langue" src="assets/img/flag_french.jpg" alt="langue anglais" width="90" height="60"></a></div>
+    </div>
 
     <div id="background">      
 
@@ -40,7 +43,7 @@
         <h1>Access</h1>
         <div id="map">
             <img id="cartefrance" src="assets/img/map.png" />
-            <a class="googlemaps" href="https://www.google.fr/maps/place/Base+Nautique+-+Aviron+Formation+Var/@43.585277,6.7864199,17z/data=!3m1!4b1!4m6!3m5!1s0x12ce9fd47a63c59d:0x9f197ae188e05f35!8m2!3d43.5852737!4d6.7886486!16s%2Fg%2F1yg4fj69z?entry=ttu">
+            <a class="googlemaps" href="https://www.google.fr/maps/place/Base+Nautique+-+Aviron+Formation+Var/@43.585277,6.7864199,17z/data=!3m1!4b1!4m6!3m5!1s0x12ce9fd47a63c59d:0x9f197ae188e05f35!8m2!3d43.5852737!4d6.7886486!16s%2Fg%2F1yg4fj69z?entry=ttu" title="Google Maps" target="_blank">
                 <img id="cartezoom" src="assets/img/map2.png" />
             </a>
         </div>
