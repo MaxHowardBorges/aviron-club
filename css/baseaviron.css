@@ -18,6 +18,7 @@ html, body {
     padding: 0;
     height: 100%;
     font-family: montserrat-medium;
+    scroll-behavior: smooth;
 }
 
 body {

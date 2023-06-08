@@ -18,6 +18,7 @@ html, body {
     padding: 0;
     height: 100%;
     font-family: montserrat-medium;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -147,11 +148,6 @@ p {
     margin-top: 3%;
     padding: 3%;
     border-top: 2px solid #007300;
-    /*
-    border: 1px black;
-    box-shadow: 0px 1px 10px #48484870;
-    border-radius: 5px;
-    */
 }
 
 .image {
