@@ -26,6 +26,12 @@
         <p>Email: contact@avironstcassien.com</p>
         <p>Phone number : +33 (0)6 89 32 39 72</p>
     </div>
+    <div class='reseau-sociaux'>
+        <p>Facebook</p>
+        <div class="facebook"><a href="https://www.facebook.com/ClubDavironDeStCassien" title="Facebook" target="_blank"><i class="fa-brands fa-facebook" width="90" height="60"></i></a></div>
+        <p>Instagram</p>
+        <div class="instagram"><a href="https://www.instagram.com/clubavironsaintcassien/" title="Instagram" target="_blank"><i class="fa-brands fa-instagram" width="90" height="60"></i></a></div>
+    </div>
 </body>
 <?php require_once 'en_footer.html'; ?>
 
