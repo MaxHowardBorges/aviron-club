@@ -195,3 +195,15 @@ button:active {
     display: flex;
     justify-content: center;
 }
+
+#scroll_to_top {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    bottom: 70px;
+    right: 80px;
+}
+
+.fa-circle-up {
+    color: #3d458b;
+}

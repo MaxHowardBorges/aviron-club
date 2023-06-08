@@ -160,6 +160,9 @@
             <img class="img" src="assets/img/loisir_fete_club_2004.JPG" style="width:100%">
         </div>
 
+        <div id="scroll_to_top">
+            <a href="#top"><i title="Top of page" class="fa-solid fa-circle-up fa-3x"></i></a>
+        </div>
     </div>
 </body>
 <?php require_once 'en_footer.html'; ?>

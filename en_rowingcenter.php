@@ -250,6 +250,9 @@
             </div>
         </div>
     </div>
+    <div id="scroll_to_top">
+        <a href="#top"><i title="Top of page" class="fa-solid fa-circle-up fa-3x"></i></a>
+    </div>
 </body>
 <?php require_once 'en_footer.html'; ?>
 </html>

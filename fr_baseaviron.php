@@ -251,6 +251,10 @@
             </div>
         </div>
     </div>
+
+    <div id="scroll_to_top">
+        <a href="#top"><i title="Début de page" class="fa-solid fa-circle-up fa-3x"></i></a>
+    </div>
 </body>
 <?php require_once 'fr_footer.html'; ?>
 </html>

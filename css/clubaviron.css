@@ -208,3 +208,15 @@ a.lien:hover::before {
     transform-origin: left;
     transform: scaleX(1);
 }
+
+#scroll_to_top {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    bottom: 70px;
+    right: 80px;
+}
+
+.fa-circle-up {
+    color: #007300;
+}
