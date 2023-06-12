@@ -34,28 +34,12 @@ body {
 
 .fa-cloud-sun {
     color: #ffffff;
-    transition: transform 500ms ease-in-out-back,
-    background-position 800ms ease-in-out-back, box-shadow 500ms linear;
     text-shadow: 0px 1px 10px #686868;
-}
-
-.fa-cloud-sun:hover {
-    transform: scale(1.02);
-    background-position: -60px;
-    text-shadow: 0px 1px 10px #303030;
 }
 
 #langue {
     border-radius: 5px;
-    transition: transform 500ms ease-in-out-back,
-    background-position 800ms ease-in-out-back, box-shadow 500ms linear;
     box-shadow: 0px 1px 10px #686868;
-}
-
-#langue:hover {
-    transform: scale(1.02);
-    background-position: -60px;
-    box-shadow: 0px 1px 10px #303030;
 }
 
 #background {
@@ -85,20 +69,13 @@ body {
     
 }
 
-
 #b1 {
-    font-size: 30px;
     background-color: #3d458b;
-    height: 300px;
-    width: 390px;
     margin: 5px;
 }
 
 #b2 {
-    font-size: 30px;
     background-color: green;
-    height: 300px;
-    width: 390px;
     margin: 5px;
 }
 
@@ -107,19 +84,8 @@ button {
     border: none;
     color: #ffffff;
     text-decoration: none;
-    height: 50px;
-    width: 150px;
-    font-size: 16px;
     border-radius: 8px;
-    transition: transform 500ms ease-in-out-back,
-    background-position 800ms ease-in-out-back, box-shadow 500ms linear;
-    box-shadow: 0 1px 3px #0000001f, 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-button:hover {
-    transform: scale(1.02);
-    background-position: -60px;
-    box-shadow: 0 3px 6px #00000029, 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d;
 }
 
 button:active {
@@ -138,7 +104,6 @@ button:active {
 
 h1 {
     text-align: center;
-    font-size: xxx-large;
     font-family: montserrat-regular;
 }
 
@@ -150,39 +115,12 @@ footer {
     background-color: #E7ECEA;
 }
 
-#foot > div {
-    padding: 15px 15px;
-}
-
-#f1 > img {
-    padding: 17px 35px;
-}
-
-#f2 > img {
-    max-height: 180px;
-    max-height: 180px;
-    padding: 17px 35px;
-}
-
-#f4 > img {
-    max-height: 1000px;
-    max-width: 1000px;
-    padding: 17px 35px;
-}
-
 #video-liste {
     display: flex;
-    text-align: center;
-    align-content: center;
+    justify-content: center;
     width: 100%;
     margin-top: 25px;
     margin-bottom: 25px;
-}
-
-#video-liste > video{
-    padding: 12px;
-    max-width: 32%;
-    display: inline-block;
 }
 
 #map{
@@ -191,20 +129,8 @@ footer {
     margin-top: 25px;
 }
 
-#cartefrance{
-    flex-basis: 35%;
-    margin-left: 3px;
-    margin-right: 15px;
-    width: 35%;
-}
-
 .googlemaps {
     display: flex;
-}
-
-#cartezoom{
-    flex-basis: 65%;
-    width: 100%;
 }
 
 #button_savoir_plus{
@@ -216,3 +142,144 @@ footer {
 #b3{
     display: inline-block;
 }
+
+@media screen and (min-width: 800px) {
+    .fa-cloud-sun {
+        transition: transform 500ms ease-in-out-back,
+        background-position 800ms ease-in-out-back, box-shadow 500ms linear;
+    }
+    
+    .fa-cloud-sun:hover {
+        transform: scale(1.02);
+        background-position: -60px;
+        text-shadow: 0px 1px 10px #303030;
+    }
+    
+    #langue {
+        border-radius: 5px;
+        box-shadow: 0px 1px 10px #686868;
+    }
+    
+    #langue:hover {
+        transform: scale(1.02);
+        background-position: -60px;
+        box-shadow: 0px 1px 10px #303030;
+    }
+
+    #b1, #b2 {
+        font-size: 30px;
+        height: 290px;
+        width: 377px;
+    }
+
+    button {
+        height: 50px;
+        width: 150px;
+        font-size: 16px;
+        transition: transform 500ms ease-in-out-back,
+        background-position 800ms ease-in-out-back, box-shadow 500ms linear;
+    }
+    
+    button:hover {
+        transform: scale(1.02);
+        background-position: -60px;
+        box-shadow: 0 3px 6px #00000029, 0 3px 6px #0000003b;
+    }
+
+    h1 {
+        font-size: xxx-large;
+    }
+
+    #foot > div {
+        padding: 15px;
+    }
+    
+    #f1 > img {
+        padding: 17px 35px;
+    }
+    
+    #f2 > img {
+        max-height: 180px;
+        max-width: 180px;
+        padding: 17px 35px;
+    }
+    
+    #f4 > img {
+        max-height: 1000px;
+        max-width: 1000px;
+        padding: 17px 35px;
+    }
+
+    #video-liste > video{
+        padding: 10px;
+        max-width: 32%;
+    }
+
+    #cartefrance{
+        flex-basis: 35%;
+        margin-left: 3px;
+        margin-right: 15px;
+        width: 35%;
+    }
+
+    #cartezoom{
+        flex-basis: 65%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #bb {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 230px
+    }
+
+    #b1 {
+        font-size: 25px;
+        height: 200px;
+        width: 260px;
+    }
+    
+    #b2 {
+        font-size: 25px;
+        height: 200px;
+        width: 260px;
+    }
+
+    #map, #video-liste {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    video, #cartefrance {
+        padding: 12px;
+        max-width: 100%;
+    }
+
+    #cartezoom {
+        max-width: 100%;
+    }
+
+    #foot > div {
+        padding: 15px;
+    }
+    
+    #f1, #f2, #f3, #f4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #f1 > img, #f2 > img, #f3 > img, #f4 > img {
+        max-width: 90px;
+        max-height: 90px;
+        padding: 10px 10px;
+    }
+
+    button {
+        height: 50px;
+        width: 150px;
+        font-size: 16px;
+    }
+} 
