@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="css/boutique.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
-<?php require_once 'fr_navigation.html'; ?>
+<?php require_once 'fr_navigation.html';
+    /*require_once "bd.php";
+    $db = createDbConnection();*/?>
 
 <body>
     <div class="meteo-langue">
@@ -30,15 +32,33 @@
         }
     */
     ?>
-        <div class="article">
+
+        <div class="article-apercu">
             <!--<a href="fr_description.php">-->
-                <section class='article-apercu'>
-                    <img src="assets/img/Saint-Cassien-logo.png" class="img-apercu-gauche" alt="image produit">
-                    <h3>article1</h3>
-                    <p>19€</p>
-                    <p>gourde</p>
-                </section>
-            </a>
+                <table class="tab-apercu">
+                    <img src="assets/img/boutique combi ASC.jpg" class="img-apercu-gauche" alt="image produit">
+                    <h3>Combinaison Aviron Saint Cassien</h3>
+                    <p>65€</p>
+                    <p>Combinaison en lycra, taille S, M, L, XL, XXL</p>
+                </table>
+        </div>
+        <div class="article-apercu">
+            <!--<a href="fr_description.php">-->
+                <table class="tab-apercu">
+                    <img src="assets/img/boutique gourdes St Cassien.jpg" class="img-apercu-gauche" alt="image produit">
+                    <h3>Gourdes</h3>
+                    <p>15€</p>
+                    <p>Gourdes Aviron Saint Cassien en alu ; 3 couleurs verte, blanche, noire</p>
+                </table>
+        </div>
+        <div class="article-apercu">
+            <!--<a href="fr_description.php">-->
+                <table class="tab-apercu">
+                    <img src="assets/img/boutique casquette.jpg" class="img-apercu-gauche" alt="image produit">
+                    <h3>Casquette</h3>
+                    <p>5€</p>
+                    <p>Casquette Aviron Saint Cassien noire</p>
+                </table>
         </div>
     <?php
     /*
