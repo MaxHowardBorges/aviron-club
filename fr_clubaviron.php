@@ -121,7 +121,7 @@
                 <li>Renseignement auprès de notre entraineur : Tel. mobile : +33 (0)6 63 03 29 97 - Contact par courriel : nicoillans83@hotmail.fr</li>
             </ul>
         </div>
-        <div class="sous-bloc-pair">
+        <div class="sous_bloc">
             <div class="container">
                 <div class="mySlides" style="display: block;">
                     <img class="pres-img" src="assets/img/compétition 2x H b.jpg" style="width:100%">
@@ -165,39 +165,7 @@
                 </div>
             </div>
         </div>
-        <div class="sous-bloc-pair">
-            <div class="texte">
-                <h4>Entraînement et compétitions</h4>
-                <ul>
-                    <li>L'aviron de compétition est un sport très formateur et très
-                        gratifiant pour les jeunes : goût de l'effort, esprit de groupe, respect du
-                        matériel nautique (coûteux), déplacements en régates sur de nombreux plans
-                        d'eau dans toute la France... Mais c'est aussi un sport exigeant qui demande
-                        de la persévérance dans l'effort physique et une régularité dans les
-                        séances d'entraînement : 3 fois par semaine pour les 13-14 ans (mercredi,
-                        vendredi et samedi), 4 à 5 fois par semaine pour les 15-16 ans avec une ou
-                        deux séance de préparation physique en salle, et jusqu'à 7 fois par semaine
-                        pour les juniors et séniors (17 à 23 ans).</li>
-                    <li>De nombreux types de bateaux sont utilisables par les entraîneurs
-                        pour former des équipages : le Skiff solo, le Double Scull, les Quatre et le
-                        Huit avec 2 rames par rameur (rame en couple) ou une seule ( rame en «
-                        pointe »). Une fois les équipes formées, la solidarité entre rameurs est de
-                        rigueur et la présence lors des régates est obligatoire.</li>
-                    <li>Les déplacements en régates sont assez nombreux (jusqu'à un week-end
-                        sur deux en mai-juin) et demandent aux jeunes une présence régulière lors
-                        des séances d'entraînement et une disponibilité importante certaine
-                        week-ends. Chaque année, après un chemin de sélection lors des régates
-                        régionales, le club emmène une trentaine de jeunes jusqu'aux championnats de
-                        France souvent récompensé par des médailles et même des titres de Champion
-                        de France. Quelques-uns intègreront le pôle France et iront défendre nos
-                        couleurs aux championnats d'Europe et du monde.</li>
-                    <li>Cinq entraîneurs, brevetés d'état, dont deux à temps complet,
-                        encadrent nos jeunes tous les jours et lors des déplacement en régates ;
-                        lors de ces déplacements les parents sont sollicités pour accompagner des
-                        jeunes et participer à l'organisation des repas et des nuitées ; une
-                        expérience intéressante pour tous qui laisse des souvenirs inoubliables.</li>
-                </ul>
-            </div>
+        <div class="competition">
             <div class="container">
                 <div class="mySlides" style="display: block;">
                     <img class="pres-img" src="assets/img/Coach-Nicolas.jpg" style="width:100%">
@@ -244,6 +212,38 @@
                     </div>
                 </div>
             </div>
+            <div class="texte">
+                <h4>Entraînement et compétitions</h4>
+                <ul>
+                    <li>L'aviron de compétition est un sport très formateur et très
+                        gratifiant pour les jeunes : goût de l'effort, esprit de groupe, respect du
+                        matériel nautique (coûteux), déplacements en régates sur de nombreux plans
+                        d'eau dans toute la France... Mais c'est aussi un sport exigeant qui demande
+                        de la persévérance dans l'effort physique et une régularité dans les
+                        séances d'entraînement : 3 fois par semaine pour les 13-14 ans (mercredi,
+                        vendredi et samedi), 4 à 5 fois par semaine pour les 15-16 ans avec une ou
+                        deux séance de préparation physique en salle, et jusqu'à 7 fois par semaine
+                        pour les juniors et séniors (17 à 23 ans).</li>
+                    <li>De nombreux types de bateaux sont utilisables par les entraîneurs
+                        pour former des équipages : le Skiff solo, le Double Scull, les Quatre et le
+                        Huit avec 2 rames par rameur (rame en couple) ou une seule ( rame en «
+                        pointe »). Une fois les équipes formées, la solidarité entre rameurs est de
+                        rigueur et la présence lors des régates est obligatoire.</li>
+                    <li>Les déplacements en régates sont assez nombreux (jusqu'à un week-end
+                        sur deux en mai-juin) et demandent aux jeunes une présence régulière lors
+                        des séances d'entraînement et une disponibilité importante certaine
+                        week-ends. Chaque année, après un chemin de sélection lors des régates
+                        régionales, le club emmène une trentaine de jeunes jusqu'aux championnats de
+                        France souvent récompensé par des médailles et même des titres de Champion
+                        de France. Quelques-uns intègreront le pôle France et iront défendre nos
+                        couleurs aux championnats d'Europe et du monde.</li>
+                    <li>Cinq entraîneurs, brevetés d'état, dont deux à temps complet,
+                        encadrent nos jeunes tous les jours et lors des déplacement en régates ;
+                        lors de ces déplacements les parents sont sollicités pour accompagner des
+                        jeunes et participer à l'organisation des repas et des nuitées ; une
+                        expérience intéressante pour tous qui laisse des souvenirs inoubliables.</li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="bloc_impair">
@@ -265,7 +265,7 @@
                 <li>Renseignement auprès de notre l'entraineur Nicolas : - Mobile : +33 (0)6 63 03 29 97 - courriel : nicoillans83@hotmail.fr</li>
             </ul>
         </div>
-        <div class="sous-bloc-impair">
+        <div class="sous_bloc">
             <div class="container">
                 <div class="mySlides" style="display: block;">
                     <img class="pres-img" src="assets/img/Scolaire section sportive à l'entraînement.JPG" style="width:100%">
@@ -295,24 +295,26 @@
                 </div>
             </div>
         </div>
-        <div class="texte">
-            <h4>Section sportive collège</h4>
-            <p>Le collège Léonard de Vinci à Montauroux comprend une Section Sportive Aviron ; à l'issue de l'année de 6ème, les élèves motivés peuvent intégrer cette classe pour trois ans (en classes de 5ème, 4ème et 3ème).
-                 L'accès à cette pratique renforcée se fait après détection sportive et étude du dossier scolaire ; l'assiduité aux séances d'entraînement est de rigueur, la section sportive aviron constituant le cœur de la section compétition du club.
-                 Les entraînements ont lieu  les mercredi et vendredi après midi dans le cadre scolaire et UNSS et le samedi matin dans le cadre de la section compétition du club ; des séances en salle ont également lieu deux fois par semaine au collège.
-                 Chaque année les élèves participent aux championnats d'académie et aux championnats de France des collèges. De nombreux podiums et titre de champions de France ont régulièrement récompensé leurs efforts faisant du collège de Montauroux l'un des plus réputés pour l'aviron en France.</p>
-            <p> Objectifs et valeurs de la section sportive aviron:  </p>
-            <ul>
-                <li>Permettre aux jeunes de s'épanouir à travers un sport de pleine nature très complet physiquement</li>
-                <li>Réussir ses études au collège.</li>
-                <li>Apprendre le goût de l'effort et mesurer les bénéfices d'un travail suivi et régulier.</li>
-                <li>S'ouvrir sur l'extérieur et développer l'autonomie.</li>
-                <li>Acquérir une culture d'équipe et  vivre dans le cadre d'une solidarité collective.</li>
-                <li>Développer une bonne hygiène sportive et de vie quotidienne.</li>
-                <li>Adopter des comportements de sécurité pour eux même et pour les autres.</li>
-            </ul>
+        <div class="scolaire">
+            <div class="texte-seul">
+                <h4>Section sportive collège</h4>
+                <p>Le collège Léonard de Vinci à Montauroux comprend une Section Sportive Aviron ; à l'issue de l'année de 6ème, les élèves motivés peuvent intégrer cette classe pour trois ans (en classes de 5ème, 4ème et 3ème).
+                    L'accès à cette pratique renforcée se fait après détection sportive et étude du dossier scolaire ; l'assiduité aux séances d'entraînement est de rigueur, la section sportive aviron constituant le cœur de la section compétition du club.
+                    Les entraînements ont lieu les mercredi et vendredi après midi dans le cadre scolaire et UNSS et le samedi matin dans le cadre de la section compétition du club ; des séances en salle ont également lieu deux fois par semaine au collège.
+                    Chaque année les élèves participent aux championnats d'académie et aux championnats de France des collèges. De nombreux podiums et titre de champions de France ont régulièrement récompensé leurs efforts faisant du collège de Montauroux l'un des plus réputés pour l'aviron en France.</p>
+                <p> Objectifs et valeurs de la section sportive aviron: </p>
+                <ul>
+                    <li>Permettre aux jeunes de s'épanouir à travers un sport de pleine nature très complet physiquement</li>
+                    <li>Réussir ses études au collège.</li>
+                    <li>Apprendre le goût de l'effort et mesurer les bénéfices d'un travail suivi et régulier.</li>
+                    <li>S'ouvrir sur l'extérieur et développer l'autonomie.</li>
+                    <li>Acquérir une culture d'équipe et vivre dans le cadre d'une solidarité collective.</li>
+                    <li>Développer une bonne hygiène sportive et de vie quotidienne.</li>
+                    <li>Adopter des comportements de sécurité pour eux même et pour les autres.</li>
+                </ul>
+            </div>
         </div>
-        <div class="sous-bloc-impair">
+        <div class="scolaire">
             <div class="texte">
                 <h4>Aviron au Lycée et après…</h4>
                 <p>Le Lycée St Exupéry à St Raphaël accueille les anciens élèves de la section sportive du collège et leur offre des horaires aménagés pour poursuivre leur entraînement à l'aviron jusqu'en classe terminale.</p>

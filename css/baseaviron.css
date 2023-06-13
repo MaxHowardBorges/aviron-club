@@ -35,7 +35,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    height: 400px;
     width: 100%;
     box-shadow: 0px 1px 10px #808080;
     z-index: 5;
@@ -55,57 +54,33 @@ body {
 
 .fa-cloud-sun {
     color: #ffffff;
-    transition: transform 500ms ease-in-out-back,
-    background-position 800ms ease-in-out-back, box-shadow 500ms linear;
     text-shadow: 0px 1px 10px #686868;
-}
-
-.fa-cloud-sun:hover {
-    transform: scale(1.02);
-    background-position: -60px;
-    text-shadow: 0px 1px 10px #303030;
 }
 
 #langue {
     border-radius: 5px;
-    transition: transform 500ms ease-in-out-back,
-    background-position 800ms ease-in-out-back, box-shadow 500ms linear;
     box-shadow: 0px 1px 10px #686868;
-}
-
-#langue:hover {
-    transform: scale(1.02);
-    background-position: -60px;
-    box-shadow: 0px 1px 10px #303030;
 }
 
 .titre-page {
     background-color: #3d458b;
     color: #ffffff;
     box-shadow: 0px 1px 10px #808080;
-    max-width: 400px;
-    min-height: 90px;
     text-align: center;
     margin: auto;
     margin-top: -70px;
     border-radius: 8px;
-    display: block;
-}
-
-.titre-page h1 {
-    padding: 30px;
-    font-size: 40px;
 }
 
 .neutre {
     align-items: center;
-    padding: 0 15% 2% 15%;
 }
 
 #petite-etoile {
     font-size: 12px;
 }
 
+/*Jusqu'ici*/
 .bloc_impair, .bloc_pair {
     display: flex;
     align-items: center;
@@ -221,3 +196,46 @@ button:active {
     display: table;
     clear: both;
   }
+
+@media screen and (min-width: 600px) {
+    #background {
+        height: 400px;
+    }
+
+    .fa-cloud-sun {
+        transition: transform 500ms ease-in-out-back,
+        background-position 800ms ease-in-out-back, box-shadow 500ms linear;
+    }
+    
+    .fa-cloud-sun:hover {
+        transform: scale(1.02);
+        background-position: -60px;
+        text-shadow: 0px 1px 10px #303030;
+    }
+    
+    #langue {
+        border-radius: 5px;
+        box-shadow: 0px 1px 10px #686868;
+    }
+    
+    #langue:hover {
+        transform: scale(1.02);
+        background-position: -60px;
+        box-shadow: 0px 1px 10px #303030;
+    }
+
+    .titre-page {
+        max-width: 400px;
+        min-height: 90px;
+        display: block;
+    }
+    
+    .titre-page h1 {
+        padding: 30px;
+        font-size: 40px;
+    }
+
+    .neutre {
+        padding: 0 15% 2% 15%;
+    }
+}

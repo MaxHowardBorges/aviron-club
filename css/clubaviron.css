@@ -141,13 +141,19 @@ p {
     font-family: montserrat-semibold;
 }
 
-.loisir {
+.competition, .loisir, .scolaire {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3%;
-    padding: 3%;
+    margin-top: 2%;
+    padding: 2%;
     border-top: 2px solid #007300;
+}
+
+.sous_bloc {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
 }
 
 .image {
@@ -161,6 +167,7 @@ p {
 
 .texte {
     flex-basis: 60%;
+    margin-bottom: 50px;
 }
 
 .intro {
