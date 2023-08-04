@@ -80,13 +80,11 @@ body {
     font-size: 12px;
 }
 
-/*Jusqu'ici*/
 .bloc_impair, .bloc_pair {
     display: flex;
     align-items: center;
     justify-content: space-around;
     box-sizing: border-box;
-    padding: 3%;
 }
 
 .bloc_impair {
@@ -120,14 +118,6 @@ img {
     box-shadow: 0px 1px 10px #484848;
 }
 
-.texte {
-    flex-basis: 40%;
-}
-
-.bloc_impair .texte {
-    padding-left: 5%;
-}
-
 .qui-somme-nous h2{
     text-align: center;
 }
@@ -145,20 +135,6 @@ button {
     width: 150px;
     font-size: 16px;
     border-radius: 8px;
-    transition: transform 500ms ease-in-out-back,
-    background-position 800ms ease-in-out-back, box-shadow 500ms linear;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-button:hover {
-    transform: scale(1.02);
-    background-position: -60px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-
-button:active {
-    transform: scale(1);
-    background-position: 500px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
@@ -176,10 +152,9 @@ button:active {
     position: fixed;
     width: 30px;
     height: 30px;
-    bottom: 70px;
-    right: 80px;
 }
 
+/*Jusqu'ici*/
 .fa-circle-up {
     color: #3d458b;
 }
@@ -197,7 +172,7 @@ button:active {
     clear: both;
   }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
     #background {
         height: 400px;
     }
@@ -237,5 +212,70 @@ button:active {
 
     .neutre {
         padding: 0 15% 2% 15%;
+    }
+
+    .texte {
+        flex-basis: 40%;
+    }
+
+    .bloc_impair, .bloc_pair {
+        padding: 3%;
+    }
+    
+    .bloc_impair .texte {
+        padding-left: 5%;
+    }
+
+    button {
+        background-color: #3d458b;
+        border: none;
+        color: #ffffff;
+        text-decoration: none;
+        height: 50px;
+        width: 150px;
+        font-size: 16px;
+        border-radius: 8px;
+        transition: transform 500ms ease-in-out-back,
+        background-position 800ms ease-in-out-back, box-shadow 500ms linear;
+    }
+    
+    button:hover {
+        transform: scale(1.02);
+        background-position: -60px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+    
+    button:active {
+        transform: scale(1);
+        background-position: 500px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    }
+
+    #scroll_to_top {
+        bottom: 70px;
+        right: 80px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .bloc_impair {
+        flex-direction: column;
+    }
+    
+    .bloc_pair {
+        flex-direction: column-reverse;
+    }
+
+    button {
+        margin-bottom: 40px;
+    }
+
+    .bloc_impair, .bloc_pair, .neutre {
+        padding: 6%;
+    }
+
+    #scroll_to_top {
+        bottom: 50px;
+        right: 60px;
     }
 }

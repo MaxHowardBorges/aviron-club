@@ -1,29 +1,51 @@
 <!doctype html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="css/navigation.css" />
-    </head>
-    <body>
-            <nav>
-                <div id="div_logo"><img class="logo" src="assets/img/Saint-Cassien-logo.png" onclick="window.location.href = 'fr_bienvenue.php'"/></div>
-                <ul class="menu">
-                    <li><a href="fr_baseaviron.php">Base d'Aviron</a></li>
-                    <li><a href="fr_clubaviron.php">Club d'Aviron</a>
-                        <ul class="sous-menu">
-                            <li><a href="fr_clubaviron.php#aviron_loisir">Aviron loisirs</a></li>
-                            <li><a href="fr_clubaviron.php#aviron_competition">Aviron compétition</a></li>
-                            <li><a href="fr_clubaviron.php#aviron_scolaire">Aviron scolaire</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="fr_actualites.php">Actualités</a></li>                     
-                    <li><a href="fr_contact.php">Contacts</a></li>
-                    <li><a href="fr_informations.php">Informations</a></li>
-                    <li><a href="fr_boutique.php">Boutique</a></li>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/navigation.css" />
+    <script src="js/nav_bar_mobile.js"></script>
+</head>
+
+<body>
+    <nav class="nav-ordi">
+        <div id="div_logo"><img class="logo" src="assets/img/Saint-Cassien-logo.png"
+                onclick="window.location.href = 'fr_bienvenue.php'" /></div>
+        <ul class="menu">
+            <li><a href="fr_baseaviron.php">Base d'Aviron</a></li>
+            <li><a href="fr_clubaviron.php">Club d'Aviron</a>
+                <ul class="sous-menu">
+                    <li><a href="fr_clubaviron.php#aviron_loisir">Aviron loisirs</a></li>
+                    <li><a href="fr_clubaviron.php#aviron_competition">Aviron compétition</a></li>
+                    <li><a href="fr_clubaviron.php#aviron_scolaire">Aviron scolaire</a></li>
                 </ul>
-            </nav>
-    </body>
+            </li>
+            <li><a href="fr_actualites.php">Actualités</a></li>
+            <li><a href="fr_contact.php">Contacts</a></li>
+            <li><a href="fr_informations.php">Informations</a></li>
+            <li><a href="fr_boutique.php">Boutique</a></li>
+        </ul>
+    </nav>
+
+    <!--<nav class="nav-mobile">
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+            <a href="fr_bienvenue.php">Accueil/Bienvenue</a>
+            <a href="fr_baseaviron.php">Base d'Aviron</a>
+            <a href="fr_clubaviron.php">Club d'Aviron</a>
+            <a href="fr_actualites.php">Actualités</a>
+            <a href="fr_contact.php">Contacts</a>
+            <a href="fr_informations.php">Informations</a>
+            <a href="fr_boutique.php">Boutique</a>
+        </div>
+
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">☰</button>
+        </div>
+    </nav>-->
+</body>
+
 </html>

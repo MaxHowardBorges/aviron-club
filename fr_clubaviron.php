@@ -212,7 +212,7 @@
                     </div>
                 </div>
             </div>
-            <div class="texte">
+            <div class="texte-gigabloc">
                 <h4>Entraînement et compétitions</h4>
                 <ul>
                     <li>L'aviron de compétition est un sport très formateur et très

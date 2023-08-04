@@ -1,6 +1,5 @@
 .container {
   position: relative;
-  width: 35%;
 }
   
 .mySlides {
@@ -18,7 +17,6 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 40%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
@@ -68,4 +66,33 @@
 .caption-container {
   display: flex;
   justify-content: center;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    width: 35%;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .prev, .next {
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .container {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .row {
+    display: none;
+  }
+
+  .prev, .next {
+    top: 50%;
+  }
 }
